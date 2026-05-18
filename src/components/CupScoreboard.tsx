@@ -107,6 +107,17 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
   const [loading, setLoading] = useState(true);
   const [selectedParticipantId, setSelectedParticipantId] = useState<string | null>(null);
   const [selectedGameAnalytics, setSelectedGameAnalytics] = useState<number | null>(null);
+  const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (!(e.target as Element).closest('.tooltip-trigger')) {
+        setActiveTooltip(null);
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
 
   useEffect(() => {
     async function fetchCupData() {
@@ -208,15 +219,22 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
                       </td>
                       {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(num => {
                         const gameData = player.games[num];
+                        const cellId = `${player.id}-${num}`;
+                        const isTooltipActive = activeTooltip === cellId;
+                        
                         return (
-                          <td key={num} className="text-center relative group">
+                          <td 
+                            key={num} 
+                            className="text-center relative group tooltip-trigger"
+                            onClick={() => setActiveTooltip(isTooltipActive ? null : cellId)}
+                          >
                             {gameData ? (
                               <div className="cursor-help inline-block px-2 py-1 border-2 border-transparent hover:border-black hover:bg-secondary transition-colors">
                                 <div className="font-black text-lg">{gameData.total}</div>
                                 {cup.name !== 'Кубок Нормандии' && <div className="text-xs font-bold">({gameData.score})</div>}
                                 
                                 {/* Tooltip */}
-                                <div className={`absolute left-1/2 -translate-x-1/2 w-64 brutal-card p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-[100] pointer-events-none ${isBottomHalf ? 'bottom-full mb-2' : 'top-full mt-2'}`}>
+                                <div className={`absolute left-1/2 -translate-x-1/2 w-64 brutal-card p-4 transition-all z-[100] pointer-events-none ${isBottomHalf ? 'bottom-full mb-2' : 'top-full mt-2'} ${isTooltipActive ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'}`}>
                                   <div className="text-sm font-black uppercase mb-3 border-b-4 border-black pb-2 bg-secondary inline-block px-2">
                                     Игра {num} • {gameData.score} очков
                                   </div>
