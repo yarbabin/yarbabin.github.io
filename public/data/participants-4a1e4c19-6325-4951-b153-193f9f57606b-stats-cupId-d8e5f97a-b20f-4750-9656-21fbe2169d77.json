@@ -1,0 +1,33 @@
+{
+  "participant": {
+    "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+    "name": "cyberpunkych",
+    "created_at": "2026-05-16 17:50:58"
+  },
+  "bestResultAllTime": {
+    "total_score": 43218,
+    "game_number": 9,
+    "cup_name": "Кубок Соединенных Штатов Гренландии",
+    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
+  },
+  "averageResultAllTime": 35634.27272727273,
+  "bestResultInCup": {
+    "total_score": 41708,
+    "game_number": 1,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultInCup": 41708,
+  "currentCupPlace": {
+    "place": 8,
+    "league_name": "Любительская"
+  },
+  "previousCupsPlaces": [
+    {
+      "cup_name": "Кубок Соединенных Штатов Гренландии",
+      "place": 6,
+      "league_name": "Претенденты",
+      "created_at": "2026-02-21 00:00:00"
+    }
+  ]
+}

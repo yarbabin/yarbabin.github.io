@@ -1,0 +1,39 @@
+{
+  "participant": {
+    "id": "88bcca6e-f8b1-42ef-8bd2-50c50b14b11f",
+    "name": "c0rv4x",
+    "created_at": "2026-05-16 17:50:31"
+  },
+  "bestResultAllTime": {
+    "total_score": 45700,
+    "game_number": 4,
+    "cup_name": "Кубок Соединенных Штатов Гренландии",
+    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
+  },
+  "averageResultAllTime": 35618.80952380953,
+  "bestResultInCup": {
+    "total_score": 45700,
+    "game_number": 4,
+    "cup_name": "Кубок Соединенных Штатов Гренландии",
+    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
+  },
+  "averageResultInCup": 34777,
+  "currentCupPlace": {
+    "place": 10,
+    "league_name": "Основа"
+  },
+  "previousCupsPlaces": [
+    {
+      "cup_name": "Американский халифат",
+      "place": 12,
+      "league_name": "Основа",
+      "created_at": "2026-05-16 17:46:17"
+    },
+    {
+      "cup_name": "Кубок Нормандии",
+      "place": 9,
+      "league_name": "Основа",
+      "created_at": "2025-11-13 00:00:00"
+    }
+  ]
+}

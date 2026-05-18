@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f4f0ea;
+  --color-foreground: #000000;
+  --color-card: #ffffff;
+  --color-primary: #ff5757;
+  --color-secondary: #ffde59;
+  --color-accent: #5271ff;
+  --color-success: #8cff9e;
+  --color-warning: #ff914d;
+}
+
+body {
+  @apply bg-background text-foreground min-h-screen font-sans;
+  background-image: radial-gradient(#000000 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  background-color: #f4f0ea;
+}
+
+.brutal-card {
+  @apply bg-white border-4 border-black rounded-xl;
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.brutal-button {
+  @apply border-4 border-black font-black uppercase tracking-wider rounded-lg px-6 py-2 transition-all inline-flex items-center justify-center cursor-pointer;
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+.brutal-button:active:not(:disabled) {
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0px 0px #000000;
+}
+.brutal-button:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.brutal-input {
+  @apply bg-white border-4 border-black rounded-lg px-4 py-2 font-bold transition-all w-full;
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+.brutal-input:focus {
+  @apply outline-none bg-secondary;
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+.brutal-input[type="checkbox"] {
+  @apply w-6 h-6 rounded-none cursor-pointer;
+  box-shadow: none;
+}
+.brutal-input[type="checkbox"]:checked {
+  @apply bg-primary;
+}
+
+.brutal-table-container {
+  @apply border-4 border-black rounded-xl overflow-x-auto bg-white;
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+.brutal-table {
+  @apply w-full text-left border-collapse min-w-[800px];
+}
+.brutal-table th, .brutal-table td {
+  @apply border-b-4 border-black p-4;
+}
+.brutal-table th {
+  @apply bg-secondary font-black uppercase tracking-wider border-r-4 border-black last:border-r-0;
+}
+.brutal-table td {
+  @apply border-r-4 border-black last:border-r-0 font-bold align-middle bg-white;
+}
+.brutal-table tr:hover td {
+  @apply bg-[#f0f0f0];
+}
+.brutal-table tr:last-child td {
+  @apply border-b-0;
+}

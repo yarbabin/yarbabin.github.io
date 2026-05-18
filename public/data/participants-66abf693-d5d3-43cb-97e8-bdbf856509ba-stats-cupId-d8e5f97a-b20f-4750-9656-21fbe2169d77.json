@@ -1,0 +1,26 @@
+{
+  "participant": {
+    "id": "66abf693-d5d3-43cb-97e8-bdbf856509ba",
+    "name": "Eugenevlg",
+    "created_at": "2026-05-16 17:51:36"
+  },
+  "bestResultAllTime": {
+    "total_score": 40130,
+    "game_number": 1,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultAllTime": 40130,
+  "bestResultInCup": {
+    "total_score": 40130,
+    "game_number": 1,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultInCup": 40130,
+  "currentCupPlace": {
+    "place": 10,
+    "league_name": "Любительская"
+  },
+  "previousCupsPlaces": []
+}

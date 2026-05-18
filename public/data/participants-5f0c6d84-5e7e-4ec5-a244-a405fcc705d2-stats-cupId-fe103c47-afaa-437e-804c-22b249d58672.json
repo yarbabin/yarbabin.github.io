@@ -1,0 +1,33 @@
+{
+  "participant": {
+    "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+    "name": "nastiakoleso",
+    "created_at": "2026-05-16 18:58:29"
+  },
+  "bestResultAllTime": {
+    "total_score": 48234,
+    "game_number": 1,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultAllTime": 40160.9,
+  "bestResultInCup": {
+    "total_score": 47104,
+    "game_number": 6,
+    "cup_name": "Кубок Соединенных Штатов Гренландии",
+    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
+  },
+  "averageResultInCup": 39263.88888888889,
+  "currentCupPlace": {
+    "place": 5,
+    "league_name": "Претенденты"
+  },
+  "previousCupsPlaces": [
+    {
+      "cup_name": "Американский халифат",
+      "place": 1,
+      "league_name": "Любительская",
+      "created_at": "2026-05-16 17:46:17"
+    }
+  ]
+}
