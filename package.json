@@ -10,6 +10,7 @@
     "build": "tsc -b && vite build",
     "export-data": "node export-data.js",
     "build:static": "npm run export-data && tsc -b && vite build --mode static",
+    "build:pages": "tsc -b && vite build --mode static",
     "deploy": "npm run build:static && gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
