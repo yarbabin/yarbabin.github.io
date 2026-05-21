@@ -6989,6 +6989,7 @@
             "scoresCount": 10
           },
           "comebacker": {
+            "id": "71f47829-990d-449f-a0e0-4ff88d0c7efc",
             "name": "yarbabin",
             "from": 8,
             "to": 5
@@ -7001,10 +7002,12 @@
         "games": {
           "1": {
             "iWasHere": {
+              "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
               "name": "nghtf",
               "distance": 108809.2
             },
             "iLivedHere": {
+              "id": "37d68e6c-73c0-4c48-b75e-0a85e8ee7e5b",
               "name": "tudvasov",
               "avgYears": 2.6
             },
@@ -7015,10 +7018,12 @@
           },
           "2": {
             "iWasHere": {
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
               "name": "pechenegit",
               "distance": 171597
             },
             "iLivedHere": {
+              "id": "a88354a1-8456-4999-bfa4-a8dd27e07fe7",
               "name": "dvoryrom",
               "avgYears": 0.8
             },
@@ -7029,10 +7034,12 @@
           },
           "3": {
             "iWasHere": {
+              "id": "71f47829-990d-449f-a0e0-4ff88d0c7efc",
               "name": "yarbabin",
               "distance": 1173
             },
             "iLivedHere": {
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
               "name": "pechenegit",
               "avgYears": 1.25
             },
@@ -7043,10 +7050,12 @@
           },
           "4": {
             "iWasHere": {
+              "id": "88bcca6e-f8b1-42ef-8bd2-50c50b14b11f",
               "name": "c0rv4x",
               "distance": 102870.4
             },
             "iLivedHere": {
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
               "name": "pechenegit",
               "avgYears": 0.8
             },
@@ -7057,10 +7066,12 @@
           },
           "5": {
             "iWasHere": {
+              "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
               "name": "nghtf",
               "distance": 27768
             },
             "iLivedHere": {
+              "id": "29b762e6-40f6-4e53-8bf5-0de16cb74e4a",
               "name": "kirik_wow",
               "avgYears": 2.8
             },
@@ -7071,10 +7082,12 @@
           },
           "6": {
             "iWasHere": {
+              "id": "a88354a1-8456-4999-bfa4-a8dd27e07fe7",
               "name": "dvoryrom",
               "distance": 27122.4
             },
             "iLivedHere": {
+              "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
               "name": "nghtf",
               "avgYears": 1.2
             },
@@ -7085,10 +7098,12 @@
           },
           "7": {
             "iWasHere": {
+              "id": "6fb9fb22-ebe2-445f-9a9a-b17f75125bbe",
               "name": "okiok",
               "distance": 12045.2
             },
             "iLivedHere": {
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
               "name": "pechenegit",
               "avgYears": 3
             },
@@ -7099,10 +7114,12 @@
           },
           "8": {
             "iWasHere": {
+              "id": "6fb9fb22-ebe2-445f-9a9a-b17f75125bbe",
               "name": "okiok",
               "distance": 82313.4
             },
             "iLivedHere": {
+              "id": "a88354a1-8456-4999-bfa4-a8dd27e07fe7",
               "name": "dvoryrom",
               "avgYears": 1
             },
@@ -7113,10 +7130,12 @@
           },
           "9": {
             "iWasHere": {
+              "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
               "name": "nghtf",
               "distance": 848.8
             },
             "iLivedHere": {
+              "id": "6fb9fb22-ebe2-445f-9a9a-b17f75125bbe",
               "name": "okiok",
               "avgYears": 0.8
             },
@@ -7127,10 +7146,12 @@
           },
           "10": {
             "iWasHere": {
+              "id": "6fb9fb22-ebe2-445f-9a9a-b17f75125bbe",
               "name": "okiok",
               "distance": 1359.2
             },
             "iLivedHere": {
+              "id": "6fb9fb22-ebe2-445f-9a9a-b17f75125bbe",
               "name": "okiok",
               "avgYears": 2.4
             },
@@ -11601,6 +11622,7 @@
             "scoresCount": 10
           },
           "comebacker": {
+            "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
             "name": "DanilMoiseev",
             "from": 4,
             "to": 3
@@ -11613,10 +11635,12 @@
         "games": {
           "1": {
             "iWasHere": {
+              "id": "31036631-7a9f-4875-9d66-aa7f7b8ca85c",
               "name": "qocjvjskaj",
               "distance": 0
             },
             "iLivedHere": {
+              "id": "31036631-7a9f-4875-9d66-aa7f7b8ca85c",
               "name": "qocjvjskaj",
               "avgYears": 0
             },
@@ -11627,10 +11651,12 @@
           },
           "2": {
             "iWasHere": {
+              "id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
               "name": "jvkukushkina",
               "distance": 79848
             },
             "iLivedHere": {
+              "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
               "name": "DanilMoiseev",
               "avgYears": 3.4
             },
@@ -11641,10 +11667,12 @@
           },
           "3": {
             "iWasHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "distance": 251.25
             },
             "iLivedHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "avgYears": 0.75
             },
@@ -11655,10 +11683,12 @@
           },
           "4": {
             "iWasHere": {
+              "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
               "name": "nastiakoleso",
               "distance": 232853.6
             },
             "iLivedHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "avgYears": 1.8
             },
@@ -11669,10 +11699,12 @@
           },
           "5": {
             "iWasHere": {
+              "id": "31036631-7a9f-4875-9d66-aa7f7b8ca85c",
               "name": "qocjvjskaj",
               "distance": 40020
             },
             "iLivedHere": {
+              "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
               "name": "GBrooklyn",
               "avgYears": 3.2
             },
@@ -11683,10 +11715,12 @@
           },
           "6": {
             "iWasHere": {
+              "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
               "name": "nastiakoleso",
               "distance": 51624.4
             },
             "iLivedHere": {
+              "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
               "name": "GBrooklyn",
               "avgYears": 1
             },
@@ -11697,10 +11731,12 @@
           },
           "7": {
             "iWasHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "distance": 578.2
             },
             "iLivedHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "avgYears": 1.2
             },
@@ -11711,10 +11747,12 @@
           },
           "8": {
             "iWasHere": {
+              "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
               "name": "GBrooklyn",
               "distance": 496.8
             },
             "iLivedHere": {
+              "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
               "name": "GBrooklyn",
               "avgYears": 2.8
             },
@@ -11725,10 +11763,12 @@
           },
           "9": {
             "iWasHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "distance": 19376.8
             },
             "iLivedHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "avgYears": 1.4
             },
@@ -11739,10 +11779,12 @@
           },
           "10": {
             "iWasHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "distance": 3762.4
             },
             "iLivedHere": {
+              "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
               "name": "DanilMoiseev",
               "avgYears": 3.2
             },

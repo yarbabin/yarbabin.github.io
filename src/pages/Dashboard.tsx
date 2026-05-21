@@ -30,7 +30,7 @@ export default function Dashboard() {
 
       {latestCup ? (
         <div className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-black uppercase tracking-tight mb-6 text-black bg-white inline-block px-4 py-2 border-4 border-black shadow-[4px_4px_0px_0px_#000]">Текущий турнир</h2>
+          <h2 className="text-2xl md:text-3xl font-black uppercase tracking-tight mb-6 text-black bg-white inline-block px-4 py-2 border-4 border-black shadow-[4px_4px_0px_0px_#000]">Текущий кубок</h2>
           <CupScoreboard cupId={latestCup.id} />
         </div>
       ) : (

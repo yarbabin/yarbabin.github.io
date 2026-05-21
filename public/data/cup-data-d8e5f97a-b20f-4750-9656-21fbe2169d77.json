@@ -945,10 +945,12 @@
         "games": {
           "1": {
             "iWasHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "distance": 19791.6
             },
             "iLivedHere": {
+              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
               "name": "axnklv",
               "avgYears": 0.8
             },
@@ -1833,10 +1835,12 @@
         "games": {
           "1": {
             "iWasHere": {
+              "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
               "name": "n_pikhovkin",
               "distance": 25171.8
             },
             "iLivedHere": {
+              "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
               "name": "nastiakoleso",
               "avgYears": 0.8
             },

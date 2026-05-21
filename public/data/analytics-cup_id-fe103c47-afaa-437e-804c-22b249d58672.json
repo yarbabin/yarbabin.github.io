@@ -2,8 +2,10 @@
   "bestResult": {
     "id": "9646be92-646a-48c4-bcb6-1ed2932cfe65",
     "total_score": 49359,
+    "participant_id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
     "participant_name": "nghtf",
     "game_number": 9,
+    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672",
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "rounds": [
       {
@@ -39,6 +41,7 @@
     ]
   },
   "bestAverage": {
+    "participant_id": "1055519d-715b-4e13-888e-9107011d9fbb",
     "participant_name": "axnklv",
     "avg_score": 44107.63636363636,
     "games_played": 11
@@ -46,16 +49,20 @@
   "closestDistance": {
     "distance_meters": 1,
     "round_number": 1,
+    "participant_id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
     "participant_name": "nghtf",
     "game_number": 3,
+    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672",
     "cup_name": "Кубок Соединенных Штатов Гренландии"
   },
   "bestAvgYears": {
+    "participant_id": "1055519d-715b-4e13-888e-9107011d9fbb",
     "participant_name": "axnklv",
     "avg_years_off": 2.9444444444444446,
     "games_played": 11
   },
   "bestAvgDistance": {
+    "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
     "participant_name": "GBrooklyn",
     "avg_distance": 218170.57407407407,
     "games_played": 11

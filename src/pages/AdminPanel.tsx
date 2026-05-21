@@ -215,7 +215,7 @@ export default function AdminPanel() {
 
   // Manage functions
   const handleDeleteLeague = async (id: string) => {
-    if (!confirm('Удалить лигу? Все кубки и игры в ней также будут удалены!')) return;
+    if (!confirm('Удалить лигу? Все кубки и туры в ней также будут удалены!')) return;
     try {
       await api.deleteLeague(id);
       fetchSetupData();
@@ -236,7 +236,7 @@ export default function AdminPanel() {
   };
 
   const handleDeleteCup = async (id: string) => {
-    if (!confirm('Удалить кубок? Все результаты игр будут удалены!')) return;
+    if (!confirm('Удалить кубок? Все результаты туров будут удалены!')) return;
     try {
       await api.deleteCup(id);
       fetchSetupData();
@@ -565,7 +565,7 @@ export default function AdminPanel() {
           onClick={() => setActiveTab('setup')}
           className={`brutal-button ${activeTab === 'setup' ? 'bg-primary text-white' : 'bg-white text-black hover:bg-secondary'}`}
         >
-          Настройка турнира
+          Настройка кубка
         </button>
         <button 
           onClick={() => setActiveTab('manage')}
@@ -680,7 +680,7 @@ export default function AdminPanel() {
               </select>
             </div>
             <div>
-              <label className="block text-lg font-black uppercase mb-2 text-black">Игра</label>
+              <label className="block text-lg font-black uppercase mb-2 text-black">Тур</label>
               <select value={selectedGameNumber} onChange={e => setSelectedGameNumber(Number(e.target.value))} className="brutal-input">
                 {[1,2,3,4,5,6,7,8,9,10].map(n => <option key={n} value={n}>{n} {n === 10 ? '(Финал)' : ''}</option>)}
               </select>
@@ -821,7 +821,7 @@ export default function AdminPanel() {
           </div>
 
           <div className="brutal-card p-8 bg-warning">
-            <h2 className="text-3xl font-black uppercase tracking-tight mb-6 text-black bg-white inline-block px-4 py-2 border-4 border-black shadow-[4px_4px_0px_0px_#000]">Результаты Игр</h2>
+            <h2 className="text-3xl font-black uppercase tracking-tight mb-6 text-black bg-white inline-block px-4 py-2 border-4 border-black shadow-[4px_4px_0px_0px_#000]">Результаты туров</h2>
             <select value={selectedCupId} onChange={e => setSelectedCupId(e.target.value)} className="brutal-input mb-8 text-lg">
               <option value="">Выберите кубок для просмотра результатов...</option>
               {cups.map(c => <option key={c.id} value={c.id}>{c.name}</option>)}
@@ -835,7 +835,7 @@ export default function AdminPanel() {
                   resultsList.map(r => (
                     <div key={r.result_id} className="flex justify-between items-center bg-white p-4 border-4 border-black shadow-[4px_4px_0px_0px_#000]">
                       <div className="text-lg">
-                        <span className="font-black uppercase bg-secondary px-2 border-2 border-black mr-4">Игра {r.game_number}</span>
+                        <span className="font-black uppercase bg-secondary px-2 border-2 border-black mr-4">Тур {r.game_number}</span>
                         <span className="font-black text-black mr-4">{r.participant_name}</span>
                         <span className="font-bold">Счет: <span className="font-black text-primary">{r.total_score}</span></span>
                       </div>

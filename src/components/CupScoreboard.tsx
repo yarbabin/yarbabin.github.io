@@ -1,104 +1,7 @@
 import { useState, useEffect } from 'react';
 import { api } from '../lib/api';
-import { ArrowUp, ArrowDown, Minus, ArrowUpCircle, ArrowDownCircle, X } from 'lucide-react';
-
-function ParticipantStatsModal({ participantId, cupId, onClose }: { participantId: string, cupId: string, onClose: () => void }) {
-  const [stats, setStats] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    async function fetchStats() {
-      try {
-        const data = await api.getParticipantStats(participantId, cupId);
-        setStats(data);
-      } catch (error) {
-        console.error('Error fetching participant stats', error);
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchStats();
-  }, [participantId, cupId]);
-
-  return (
-    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-[200] p-4" onClick={onClose}>
-      <div className="brutal-card w-full max-w-md overflow-hidden relative" onClick={e => e.stopPropagation()}>
-        <button onClick={onClose} className="absolute top-4 right-4 text-black hover:scale-110 transition-transform">
-          <X size={28} strokeWidth={3} />
-        </button>
-        
-        {loading ? (
-          <div className="p-8 text-center font-black uppercase text-xl">Загрузка данных...</div>
-        ) : stats ? (
-          <div className="p-6">
-            <h2 className="text-3xl font-black uppercase tracking-tight text-black mb-6 bg-secondary inline-block px-2 border-4 border-black">{stats.participant.name}</h2>
-            
-            <div className="space-y-4 text-black">
-              {stats.currentCupPlace && stats.currentCupPlace.league_name && (
-                <div className="border-b-4 border-black pb-2">
-                  <div className="font-black uppercase tracking-wider text-xs">Лига</div>
-                  <div className="font-bold text-lg">{stats.currentCupPlace.league_name}</div>
-                </div>
-              )}
-
-              <div className="border-b-4 border-black pb-2">
-                <div className="font-black uppercase tracking-wider text-xs">Лучший результат в кубке</div>
-                <div className="font-bold text-lg">
-                  {stats.bestResultInCup ? `${stats.bestResultInCup.total_score} (Тур ${stats.bestResultInCup.game_number})` : '-'}
-                </div>
-              </div>
-
-              <div className="border-b-4 border-black pb-2">
-                <div className="font-black uppercase tracking-wider text-xs">Лучший результат за всё время</div>
-                <div className="font-bold text-lg">
-                  {stats.bestResultAllTime ? `${stats.bestResultAllTime.total_score} (Тур ${stats.bestResultAllTime.game_number}, ${stats.bestResultAllTime.cup_name})` : '-'}
-                </div>
-              </div>
-
-              <div className="border-b-4 border-black pb-2">
-                <div className="font-black uppercase tracking-wider text-xs">Средний результат в кубке</div>
-                <div className="font-bold text-lg">
-                  {stats.averageResultInCup ? stats.averageResultInCup.toFixed(1) : '-'}
-                </div>
-              </div>
-
-              <div className="border-b-4 border-black pb-2">
-                <div className="font-black uppercase tracking-wider text-xs">Средний результат за всё время</div>
-                <div className="font-bold text-lg">
-                  {stats.averageResultAllTime ? stats.averageResultAllTime.toFixed(1) : '-'}
-                </div>
-              </div>
-
-              {stats.currentCupPlace && (
-                <div className="border-b-4 border-black pb-2">
-                  <div className="font-black uppercase tracking-wider text-xs">Место в текущем кубке</div>
-                  <div className="font-bold text-lg">
-                    {stats.currentCupPlace.place} {stats.currentCupPlace.league_name ? `(лига ${stats.currentCupPlace.league_name})` : ''}
-                  </div>
-                </div>
-              )}
-
-              {stats.previousCupsPlaces && stats.previousCupsPlaces.length > 0 && (
-                <div>
-                  <div className="font-black uppercase tracking-wider text-xs mb-2">Места в предыдущих кубках</div>
-                  <div className="font-bold text-base space-y-2">
-                    {stats.previousCupsPlaces.map((pc: any, idx: number) => (
-                      <div key={idx} className="bg-muted p-2 border-2 border-black">
-                        {pc.cup_name} — {pc.place} {pc.league_name ? `(лига ${pc.league_name})` : ''}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-        ) : (
-          <div className="p-8 text-center font-black uppercase text-xl text-primary">Ошибка загрузки данных</div>
-        )}
-      </div>
-    </div>
-  );
-}
+import { ArrowUp, ArrowDown, Minus, ArrowUpCircle, ArrowDownCircle } from 'lucide-react';
+import { ParticipantStatsModal, ParticipantNameButton } from './ParticipantStatsModal';
 
 export default function CupScoreboard({ cupId }: { cupId: string }) {
   const [cup, setCup] = useState<any>(null);
@@ -183,7 +86,7 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
                   <th>Участник</th>
                   {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(num => (
                     <th key={num} className="text-center w-20">
-                      И{num}
+                      Т{num}
                     </th>
                   ))}
                   <th className="text-center text-primary bg-black">Сумма</th>
@@ -236,7 +139,7 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
                                 {/* Tooltip */}
                                 <div className={`absolute left-1/2 -translate-x-1/2 w-64 brutal-card p-4 transition-all z-[100] pointer-events-none ${isBottomHalf ? 'bottom-full mb-2' : 'top-full mt-2'} ${isTooltipActive ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'}`}>
                                   <div className="text-sm font-black uppercase mb-3 border-b-4 border-black pb-2 bg-secondary inline-block px-2">
-                                    Игра {num} • {gameData.score} очков
+                                    Тур {num} • {gameData.score} очков
                                   </div>
                                   <div className="space-y-2">
                                     {gameData.rounds.map((r: any) => (
@@ -286,9 +189,11 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
               <div className="brutal-card p-6 bg-white">
                 <div className="text-sm font-black uppercase tracking-wider mb-2 text-black">Главный географ</div>
                 <div className="text-xs font-bold mb-4 opacity-80 text-black">Минимальная средняя ошибка по метрам</div>
-                <div className="text-2xl font-black uppercase bg-secondary text-black inline-block px-2 border-2 border-black mb-2">
-                  {activeLeague.analytics.cup.chiefGeographer.name}
-                </div>
+                <ParticipantNameButton
+                  name={activeLeague.analytics.cup.chiefGeographer.name}
+                  onClick={() => setSelectedParticipantId(activeLeague.analytics.cup.chiefGeographer.id)}
+                  className="text-2xl mb-2 bg-secondary text-black border-2 border-black"
+                />
                 <div className="text-xl font-bold text-black">
                   {activeLeague.analytics.cup.chiefGeographer.avgDist >= 1000 
                     ? `${(activeLeague.analytics.cup.chiefGeographer.avgDist / 1000).toFixed(1)} км` 
@@ -302,9 +207,11 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
               <div className="brutal-card p-6 bg-white">
                 <div className="text-sm font-black uppercase tracking-wider mb-2 text-black">Хранитель эпох</div>
                 <div className="text-xs font-bold mb-4 opacity-80 text-black">Минимальная средняя ошибка в годах</div>
-                <div className="text-2xl font-black uppercase bg-secondary text-black inline-block px-2 border-2 border-black mb-2">
-                  {activeLeague.analytics.cup.keeperOfEpochs.name}
-                </div>
+                <ParticipantNameButton
+                  name={activeLeague.analytics.cup.keeperOfEpochs.name}
+                  onClick={() => setSelectedParticipantId(activeLeague.analytics.cup.keeperOfEpochs.id)}
+                  className="text-2xl mb-2 bg-secondary text-black border-2 border-black"
+                />
                 <div className="text-xl font-bold text-black">
                   {activeLeague.analytics.cup.keeperOfEpochs.avgYears.toFixed(1)} лет
                 </div>
@@ -315,10 +222,12 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
             {activeLeague.analytics.cup.ironclad && (
               <div className="brutal-card p-6 bg-white">
                 <div className="text-sm font-black uppercase tracking-wider mb-2 text-black">ЖБ</div>
-                <div className="text-xs font-bold mb-4 opacity-80 text-black">Самые стабильные результаты от игры к игре</div>
-                <div className="text-2xl font-black uppercase bg-secondary text-black inline-block px-2 border-2 border-black mb-2">
-                  {activeLeague.analytics.cup.ironclad.name}
-                </div>
+                <div className="text-xs font-bold mb-4 opacity-80 text-black">Самые стабильные результаты от тура к туру</div>
+                <ParticipantNameButton
+                  name={activeLeague.analytics.cup.ironclad.name}
+                  onClick={() => setSelectedParticipantId(activeLeague.analytics.cup.ironclad.id)}
+                  className="text-2xl mb-2 bg-secondary text-black border-2 border-black"
+                />
               </div>
             )}
 
@@ -326,10 +235,12 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
             {activeLeague.analytics.cup.rollercoaster && (
               <div className="brutal-card p-6 bg-white">
                 <div className="text-sm font-black uppercase tracking-wider mb-2 text-black">Американские горки</div>
-                <div className="text-xs font-bold mb-4 opacity-80 text-black">Самый большой разброс очков от игры к игре</div>
-                <div className="text-2xl font-black uppercase bg-secondary text-black inline-block px-2 border-2 border-black mb-2">
-                  {activeLeague.analytics.cup.rollercoaster.name}
-                </div>
+                <div className="text-xs font-bold mb-4 opacity-80 text-black">Самый большой разброс очков от тура к туру</div>
+                <ParticipantNameButton
+                  name={activeLeague.analytics.cup.rollercoaster.name}
+                  onClick={() => setSelectedParticipantId(activeLeague.analytics.cup.rollercoaster.id)}
+                  className="text-2xl mb-2 bg-secondary text-black border-2 border-black"
+                />
               </div>
             )}
 
@@ -338,9 +249,11 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
               <div className="brutal-card p-6 bg-white">
                 <div className="text-sm font-black uppercase tracking-wider mb-2 text-black">Cumбэкер</div>
                 <div className="text-xs font-bold mb-4 opacity-80 text-black">Из аутсайдеров в Топ-5</div>
-                <div className="text-2xl font-black uppercase bg-secondary text-black inline-block px-2 border-2 border-black mb-2">
-                  {activeLeague.analytics.cup.comebacker.name}
-                </div>
+                <ParticipantNameButton
+                  name={activeLeague.analytics.cup.comebacker.name}
+                  onClick={() => setSelectedParticipantId(activeLeague.analytics.cup.comebacker.id)}
+                  className="text-2xl mb-2 bg-secondary text-black border-2 border-black"
+                />
                 <div className="text-lg font-bold text-black">
                   С {activeLeague.analytics.cup.comebacker.from} места на {activeLeague.analytics.cup.comebacker.to}
                 </div>
@@ -422,9 +335,11 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
                 <div className="brutal-card p-6 bg-white">
                   <div className="text-sm font-black uppercase tracking-wider mb-2 text-black">Я тут был</div>
                   <div className="text-xs font-bold mb-4 opacity-80 text-black">Минимальное среднее расстояние по всем фото</div>
-                  <div className="text-2xl font-black uppercase bg-secondary text-black inline-block px-2 border-2 border-black mb-2">
-                    {activeLeague.analytics.games[selectedGameAnalytics].iWasHere.name}
-                  </div>
+                  <ParticipantNameButton
+                    name={activeLeague.analytics.games[selectedGameAnalytics].iWasHere.name}
+                    onClick={() => setSelectedParticipantId(activeLeague.analytics.games[selectedGameAnalytics].iWasHere.id)}
+                    className="text-2xl mb-2 bg-secondary text-black border-2 border-black"
+                  />
                   <div className="text-lg font-bold text-black">
                     {activeLeague.analytics.games[selectedGameAnalytics].iWasHere.distance >= 1000 
                       ? `${(activeLeague.analytics.games[selectedGameAnalytics].iWasHere.distance / 1000).toFixed(1)} км` 
@@ -438,9 +353,11 @@ export default function CupScoreboard({ cupId }: { cupId: string }) {
                 <div className="brutal-card p-6 bg-white">
                   <div className="text-sm font-black uppercase tracking-wider mb-2 text-black">Я тут жил</div>
                   <div className="text-xs font-bold mb-4 opacity-80 text-black">Самое близкое среднее по годам</div>
-                  <div className="text-2xl font-black uppercase bg-secondary text-black inline-block px-2 border-2 border-black mb-2">
-                    {activeLeague.analytics.games[selectedGameAnalytics].iLivedHere.name}
-                  </div>
+                  <ParticipantNameButton
+                    name={activeLeague.analytics.games[selectedGameAnalytics].iLivedHere.name}
+                    onClick={() => setSelectedParticipantId(activeLeague.analytics.games[selectedGameAnalytics].iLivedHere.id)}
+                    className="text-2xl mb-2 bg-secondary text-black border-2 border-black"
+                  />
                   <div className="text-lg font-bold text-black">
                     {activeLeague.analytics.games[selectedGameAnalytics].iLivedHere.avgYears.toFixed(1)} лет
                   </div>

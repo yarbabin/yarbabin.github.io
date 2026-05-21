@@ -7779,6 +7779,7 @@
             "scoresCount": 10
           },
           "comebacker": {
+            "id": "a88354a1-8456-4999-bfa4-a8dd27e07fe7",
             "name": "dvoryrom",
             "from": 8,
             "to": 5
@@ -7791,10 +7792,12 @@
         "games": {
           "1": {
             "iWasHere": {
+              "id": "37d68e6c-73c0-4c48-b75e-0a85e8ee7e5b",
               "name": "tudvasov",
               "distance": 0
             },
             "iLivedHere": {
+              "id": "37d68e6c-73c0-4c48-b75e-0a85e8ee7e5b",
               "name": "tudvasov",
               "avgYears": 0
             },
@@ -7805,10 +7808,12 @@
           },
           "2": {
             "iWasHere": {
+              "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
               "name": "nghtf",
               "distance": 56480.6
             },
             "iLivedHere": {
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
               "name": "pechenegit",
               "avgYears": 1.6
             },
@@ -7819,10 +7824,12 @@
           },
           "3": {
             "iWasHere": {
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
               "name": "pechenegit",
               "distance": 12488.8
             },
             "iLivedHere": {
+              "id": "29b762e6-40f6-4e53-8bf5-0de16cb74e4a",
               "name": "kirik_wow",
               "avgYears": 1.8
             },
@@ -7833,10 +7840,12 @@
           },
           "4": {
             "iWasHere": {
+              "id": "b1140ae1-0a13-4182-96d4-d2cd4dc27e16",
               "name": "lipov",
               "distance": 0
             },
             "iLivedHere": {
+              "id": "b1140ae1-0a13-4182-96d4-d2cd4dc27e16",
               "name": "lipov",
               "avgYears": 0
             },
@@ -7847,10 +7856,12 @@
           },
           "5": {
             "iWasHere": {
+              "id": "c724b526-a60e-478b-af10-ef523bd8f455",
               "name": "egorshakhov",
               "distance": 0
             },
             "iLivedHere": {
+              "id": "c724b526-a60e-478b-af10-ef523bd8f455",
               "name": "egorshakhov",
               "avgYears": 0
             },
@@ -7861,10 +7872,12 @@
           },
           "6": {
             "iWasHere": {
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
               "name": "pechenegit",
               "distance": 232280
             },
             "iLivedHere": {
+              "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
               "name": "nghtf",
               "avgYears": 1.4
             },
@@ -7875,10 +7888,12 @@
           },
           "7": {
             "iWasHere": {
+              "id": "b1140ae1-0a13-4182-96d4-d2cd4dc27e16",
               "name": "lipov",
               "distance": 0
             },
             "iLivedHere": {
+              "id": "b1140ae1-0a13-4182-96d4-d2cd4dc27e16",
               "name": "lipov",
               "avgYears": 0
             },
@@ -7889,10 +7904,12 @@
           },
           "8": {
             "iWasHere": {
+              "id": "a88354a1-8456-4999-bfa4-a8dd27e07fe7",
               "name": "dvoryrom",
               "distance": 2023
             },
             "iLivedHere": {
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
               "name": "pechenegit",
               "avgYears": 4.8
             },
@@ -7903,10 +7920,12 @@
           },
           "9": {
             "iWasHere": {
+              "id": "6fb9fb22-ebe2-445f-9a9a-b17f75125bbe",
               "name": "okiok",
               "distance": 8380
             },
             "iLivedHere": {
+              "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
               "name": "nghtf",
               "avgYears": 1.8
             },
@@ -7917,10 +7936,12 @@
           },
           "10": {
             "iWasHere": {
+              "id": "71f47829-990d-449f-a0e0-4ff88d0c7efc",
               "name": "yarbabin",
               "distance": 164209.8
             },
             "iLivedHere": {
+              "id": "6fb9fb22-ebe2-445f-9a9a-b17f75125bbe",
               "name": "okiok",
               "avgYears": 1.6
             },

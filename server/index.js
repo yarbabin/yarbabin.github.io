@@ -566,7 +566,7 @@ function getCupDataLogic(cupId) {
           const jump = earlyRank - finalRank;
           if (jump > maxRankJump) {
             maxRankJump = jump;
-            comebacker = { name: p.name, from: earlyRank, to: finalRank };
+            comebacker = { id: p.id, name: p.name, from: earlyRank, to: finalRank };
           }
         }
       });
@@ -628,13 +628,13 @@ function getCupDataLogic(cupId) {
             const pAvgDist = pTotalDist / pRounds;
             if (pAvgDist < minAvgDist) {
               minAvgDist = pAvgDist;
-              iWasHere = { name: p.name, distance: pAvgDist };
+              iWasHere = { id: p.id, name: p.name, distance: pAvgDist };
             }
             
             const pAvgYears = pTotalYears / pRounds;
             if (pAvgYears < minAvgYears) {
               minAvgYears = pAvgYears;
-              iLivedHere = { name: p.name, avgYears: pAvgYears };
+              iLivedHere = { id: p.id, name: p.name, avgYears: pAvgYears };
             }
           }
         }
@@ -802,7 +802,7 @@ app.get('/api/db/analytics', (req, res) => {
   try {
     // 1. Best result
     const bestResult = db.prepare(`
-      SELECT gr.id, gr.total_score, p.name as participant_name, g.game_number, c.name as cup_name
+      SELECT gr.id, gr.total_score, p.id as participant_id, p.name as participant_name, g.game_number, c.id as cup_id, c.name as cup_name
       FROM game_results gr
       JOIN participants p ON gr.participant_id = p.id
       JOIN games g ON gr.game_id = g.id
@@ -822,7 +822,7 @@ app.get('/api/db/analytics', (req, res) => {
 
     // 2. Best average result
     const bestAverage = db.prepare(`
-      SELECT p.name as participant_name, AVG(gr.total_score) as avg_score, COUNT(gr.id) as games_played
+      SELECT p.id as participant_id, p.name as participant_name, AVG(gr.total_score) as avg_score, COUNT(gr.id) as games_played
       FROM game_results gr
       JOIN participants p ON gr.participant_id = p.id
       JOIN games g ON gr.game_id = g.id
@@ -834,7 +834,7 @@ app.get('/api/db/analytics', (req, res) => {
 
     // 3. Closest distance guess (excluding 0)
     const closestDistance = db.prepare(`
-      SELECT rd.distance_meters, rd.round_number, p.name as participant_name, g.game_number, c.name as cup_name
+      SELECT rd.distance_meters, rd.round_number, p.id as participant_id, p.name as participant_name, g.game_number, c.id as cup_id, c.name as cup_name
       FROM round_details rd
       JOIN game_results gr ON rd.game_result_id = gr.id
       JOIN participants p ON gr.participant_id = p.id
@@ -847,7 +847,7 @@ app.get('/api/db/analytics', (req, res) => {
 
     // 4. Best average years off
     const bestAvgYears = db.prepare(`
-      SELECT p.name as participant_name, AVG(rd.years_off) as avg_years_off, COUNT(DISTINCT gr.id) as games_played
+      SELECT p.id as participant_id, p.name as participant_name, AVG(rd.years_off) as avg_years_off, COUNT(DISTINCT gr.id) as games_played
       FROM round_details rd
       JOIN game_results gr ON rd.game_result_id = gr.id
       JOIN participants p ON gr.participant_id = p.id
@@ -860,7 +860,7 @@ app.get('/api/db/analytics', (req, res) => {
 
     // 5. Best average distance
     const bestAvgDistance = db.prepare(`
-      SELECT p.name as participant_name, AVG(rd.distance_meters) as avg_distance, COUNT(DISTINCT gr.id) as games_played
+      SELECT p.id as participant_id, p.name as participant_name, AVG(rd.distance_meters) as avg_distance, COUNT(DISTINCT gr.id) as games_played
       FROM round_details rd
       JOIN game_results gr ON rd.game_result_id = gr.id
       JOIN participants p ON gr.participant_id = p.id
