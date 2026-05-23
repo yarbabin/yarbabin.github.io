@@ -5,21 +5,21 @@
     "created_at": "2026-05-16 19:00:27"
   },
   "bestResultAllTime": {
-    "total_score": 43363,
-    "game_number": 6,
-    "cup_name": "Кубок Соединенных Штатов Гренландии",
-    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
-  },
-  "averageResultAllTime": 38290.63636363636,
-  "bestResultInCup": {
-    "total_score": 40540,
-    "game_number": 1,
+    "total_score": 45327,
+    "game_number": 2,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 40540,
+  "averageResultAllTime": 38877,
+  "bestResultInCup": {
+    "total_score": 45327,
+    "game_number": 2,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultInCup": 42933.5,
   "currentCupPlace": {
-    "place": 9,
+    "place": 2,
     "league_name": "Любительская"
   },
   "previousCupsPlaces": [

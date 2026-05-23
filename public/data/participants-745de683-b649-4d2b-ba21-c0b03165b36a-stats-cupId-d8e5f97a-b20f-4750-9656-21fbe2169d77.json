@@ -10,16 +10,16 @@
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 43301,
+  "averageResultAllTime": 37194.5,
   "bestResultInCup": {
     "total_score": 43301,
     "game_number": 1,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 43301,
+  "averageResultInCup": 37194.5,
   "currentCupPlace": {
-    "place": 7,
+    "place": 4,
     "league_name": "Любительская"
   },
   "previousCupsPlaces": []

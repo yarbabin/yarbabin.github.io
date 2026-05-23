@@ -10,16 +10,16 @@
     "cup_name": "Кубок Нормандии",
     "cup_id": "789ef469-dccc-4edb-9482-3e7c44b213ac"
   },
-  "averageResultAllTime": 40086.09523809524,
+  "averageResultAllTime": 40069.181818181816,
   "bestResultInCup": {
     "total_score": 46541,
     "game_number": 1,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 46541,
+  "averageResultInCup": 43127.5,
   "currentCupPlace": {
-    "place": 3,
+    "place": 2,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [
