@@ -1,9 +1,15 @@
 import express from 'express';
 import cors from 'cors';
+import http from 'http';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import db from './db.js';
 import crypto from 'crypto';
 import fetch from 'node-fetch';
 import { HttpsProxyAgent } from 'https-proxy-agent';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const projectRoot = path.resolve(__dirname, '..');
 
 const app = express();
 // Увеличиваем лимит размера тела запроса, так как картинки в Base64 могут быть большими
@@ -884,6 +890,47 @@ app.get('/api/db/analytics', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+
+async function startServer() {
+  const server = http.createServer(app);
+
+  if (process.env.NODE_ENV === 'development') {
+    const { createServer: createViteServer } = await import('vite');
+    const vite = await createViteServer({
+      root: projectRoot,
+      configFile: path.join(projectRoot, 'vite.config.ts'),
+      server: {
+        middlewareMode: true,
+        hmr: { server },
+      },
+      appType: 'spa',
+    });
+    app.use(vite.middlewares);
+    console.log('Vite dev mode with HMR enabled');
+  }
+
+  server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+      console.error(`\nPort ${PORT} is already in use.`);
+      console.error('Stop the other process or use another port, e.g.:');
+      console.error(`  $env:PORT=3002; npm run dev   (PowerShell)`);
+      console.error('To free port 3001 on Windows:');
+      console.error(`  netstat -ano | findstr ":${PORT}"`);
+      console.error('  Stop-Process -Id <PID> -Force');
+      process.exit(1);
+    }
+    throw err;
+  });
+
+  server.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+    if (process.env.NODE_ENV === 'development') {
+      console.log('Open this URL in the browser for the dev UI (API + frontend).');
+    }
+  });
+}
+
+startServer().catch((err) => {
+  console.error('Failed to start server:', err);
+  process.exit(1);
 });

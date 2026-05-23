@@ -1,18 +1,19 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
 // User site https://yarbabin.github.io/ is served from repo root — base must be '/'.
-// (Project sites under https://user.github.io/repo/ would use base: '/repo-name/'.)
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
   base: '/',
   server: {
+    port: 5173,
+    strictPort: false,
     proxy: {
       '/api/db': {
         target: 'http://localhost:3001',
-        changeOrigin: true
-      }
-    }
-  }
+        changeOrigin: true,
+      },
+    },
+  },
 })

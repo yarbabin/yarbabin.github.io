@@ -60,7 +60,10 @@ async function exportAll() {
 }
 
 console.log('Starting backend server...');
-const server = spawn('node', ['server/index.js'], { stdio: 'inherit' });
+const server = spawn('node', ['server/index.js'], {
+  stdio: 'inherit',
+  env: { ...process.env, NODE_ENV: 'production' },
+});
 
 setTimeout(async () => {
   try {
