@@ -43,8 +43,8 @@
   "bestAverage": {
     "participant_id": "1055519d-715b-4e13-888e-9107011d9fbb",
     "participant_name": "axnklv",
-    "avg_score": 44107.63636363636,
-    "games_played": 11
+    "avg_score": 44144,
+    "games_played": 13
   },
   "closestDistance": {
     "distance_meters": 1,
@@ -58,8 +58,8 @@
   "bestAvgYears": {
     "participant_id": "1055519d-715b-4e13-888e-9107011d9fbb",
     "participant_name": "axnklv",
-    "avg_years_off": 2.9444444444444446,
-    "games_played": 11
+    "avg_years_off": 2.84375,
+    "games_played": 13
   },
   "bestAvgDistance": {
     "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",

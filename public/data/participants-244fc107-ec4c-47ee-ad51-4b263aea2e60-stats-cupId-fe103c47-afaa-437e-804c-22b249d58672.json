@@ -2,7 +2,8 @@
   "participant": {
     "id": "244fc107-ec4c-47ee-ad51-4b263aea2e60",
     "name": "sofa_burg",
-    "created_at": "2026-05-16 19:00:42"
+    "created_at": "2026-05-16 19:00:42",
+    "telegram_username": null
   },
   "bestResultAllTime": {
     "total_score": 38641,

@@ -2,7 +2,8 @@
   "participant": {
     "id": "c724b526-a60e-478b-af10-ef523bd8f455",
     "name": "egorshakhov",
-    "created_at": "2026-05-16 19:09:12"
+    "created_at": "2026-05-16 19:09:12",
+    "telegram_username": null
   },
   "bestResultAllTime": {
     "total_score": 47740,

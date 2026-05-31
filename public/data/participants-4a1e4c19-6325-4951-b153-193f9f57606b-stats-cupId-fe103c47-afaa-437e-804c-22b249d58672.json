@@ -2,7 +2,8 @@
   "participant": {
     "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
     "name": "cyberpunkych",
-    "created_at": "2026-05-16 17:50:58"
+    "created_at": "2026-05-16 17:50:58",
+    "telegram_username": null
   },
   "bestResultAllTime": {
     "total_score": 43218,
@@ -10,7 +11,7 @@
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
   },
-  "averageResultAllTime": 35634.27272727273,
+  "averageResultAllTime": 35535.46153846154,
   "bestResultInCup": {
     "total_score": 43218,
     "game_number": 9,

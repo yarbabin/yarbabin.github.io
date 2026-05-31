@@ -2,7 +2,8 @@
   "participant": {
     "id": "b1140ae1-0a13-4182-96d4-d2cd4dc27e16",
     "name": "lipov",
-    "created_at": "2026-05-16 18:58:54"
+    "created_at": "2026-05-16 18:58:54",
+    "telegram_username": null
   },
   "bestResultAllTime": {
     "total_score": 37157,

@@ -29,16 +29,16 @@
           "name": "Основа",
           "top3": [
             {
+              "name": "axnklv",
+              "totalGp": 66
+            },
+            {
               "name": "nghtf",
-              "totalGp": 46
+              "totalGp": 61
             },
             {
               "name": "yarbabin",
-              "totalGp": 33
-            },
-            {
-              "name": "GBrooklyn",
-              "totalGp": 31
+              "totalGp": 45
             }
           ]
         },
@@ -47,16 +47,16 @@
           "name": "Любительская",
           "top3": [
             {
-              "name": "nastiakoleso",
-              "totalGp": 45
+              "name": "svv1997",
+              "totalGp": 58
+            },
+            {
+              "name": "valeria_trusova",
+              "totalGp": 51
             },
             {
               "name": "DanilMoiseev",
-              "totalGp": 34
-            },
-            {
-              "name": "n_pikhovkin",
-              "totalGp": 30
+              "totalGp": 51
             }
           ]
         }

@@ -2,7 +2,8 @@
   "participant": {
     "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
     "name": "GBrooklyn",
-    "created_at": "2026-05-16 18:59:31"
+    "created_at": "2026-05-16 18:59:31",
+    "telegram_username": null
   },
   "bestResultAllTime": {
     "total_score": 47172,
@@ -19,7 +20,7 @@
   },
   "averageResultInCup": 45356.5,
   "currentCupPlace": {
-    "place": 3,
+    "place": 8,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [
