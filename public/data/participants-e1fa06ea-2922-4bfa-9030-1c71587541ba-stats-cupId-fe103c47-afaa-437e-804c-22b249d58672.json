@@ -3,7 +3,7 @@
     "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
     "name": "n_pikhovkin",
     "created_at": "2026-05-16 17:51:23",
-    "telegram_username": "1."
+    "telegram_username": null
   },
   "bestResultAllTime": {
     "total_score": 45567,
@@ -18,7 +18,7 @@
   "previousCupsPlaces": [
     {
       "cup_name": "Американский халифат",
-      "place": 3,
+      "place": 4,
       "league_name": "Любительская",
       "created_at": "2026-05-16 17:46:17"
     }
