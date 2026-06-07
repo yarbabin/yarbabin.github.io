@@ -3543,6 +3543,276 @@
           "trend": "up"
         },
         {
+          "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+          "name": "nastiakoleso",
+          "totalGp": 61,
+          "games": {
+            "1": {
+              "score": 48234,
+              "gp": 25,
+              "bonus": 0,
+              "total": 25,
+              "rank": 1,
+              "rounds": [
+                {
+                  "id": "9143428a-656f-4cae-a001-558a5a0e86b6",
+                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
+                  "round_number": 1,
+                  "score": 9998,
+                  "years_off": 0,
+                  "distance_meters": 83,
+                  "created_at": "2026-05-17 10:49:57",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 1
+                },
+                {
+                  "id": "fe86458a-ccd3-4d1b-bffb-a8c1766c81ce",
+                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
+                  "round_number": 2,
+                  "score": 9326,
+                  "years_off": 1,
+                  "distance_meters": 123800,
+                  "created_at": "2026-05-17 10:49:57",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 1
+                },
+                {
+                  "id": "97210c3d-2ca5-4e57-808c-da423769c3cf",
+                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
+                  "round_number": 3,
+                  "score": 9827,
+                  "years_off": 1,
+                  "distance_meters": 5900,
+                  "created_at": "2026-05-17 10:49:57",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 1
+                },
+                {
+                  "id": "37fb032e-50ab-4c6d-bb6a-662516c6ccc1",
+                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
+                  "round_number": 4,
+                  "score": 9939,
+                  "years_off": 1,
+                  "distance_meters": 548,
+                  "created_at": "2026-05-17 10:49:57",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 1
+                },
+                {
+                  "id": "325a58cc-0c44-4e4b-9a65-4c8a6b88b60a",
+                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
+                  "round_number": 5,
+                  "score": 9144,
+                  "years_off": 1,
+                  "distance_meters": 306000,
+                  "created_at": "2026-05-17 10:49:57",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 1
+                }
+              ]
+            },
+            "2": {
+              "score": 39866,
+              "gp": 15,
+              "bonus": 0,
+              "total": 15,
+              "rank": 4,
+              "rounds": [
+                {
+                  "id": "ef501a1b-2861-4b32-b374-13687327581e",
+                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
+                  "round_number": 1,
+                  "score": 9875,
+                  "years_off": 0,
+                  "distance_meters": 6400,
+                  "created_at": "2026-05-23 12:59:59",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 2
+                },
+                {
+                  "id": "21ea0ef6-ce55-406f-9461-0337d5a412fe",
+                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
+                  "round_number": 2,
+                  "score": 9298,
+                  "years_off": 4,
+                  "distance_meters": 81,
+                  "created_at": "2026-05-23 12:59:59",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 2
+                },
+                {
+                  "id": "2af1c0cb-1a2c-46bc-ad6d-2e3382ea104c",
+                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
+                  "round_number": 3,
+                  "score": 7500,
+                  "years_off": 9,
+                  "distance_meters": 10,
+                  "created_at": "2026-05-23 12:59:59",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 2
+                },
+                {
+                  "id": "0c5ed6b3-fae1-4512-94a5-6b4d658d54fe",
+                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
+                  "round_number": 4,
+                  "score": 6266,
+                  "years_off": 14,
+                  "distance_meters": 233600,
+                  "created_at": "2026-05-23 12:59:59",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 2
+                },
+                {
+                  "id": "9aa5c757-bf94-4848-b02c-2f784dd6ea23",
+                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
+                  "round_number": 5,
+                  "score": 6927,
+                  "years_off": 14,
+                  "distance_meters": 3300,
+                  "created_at": "2026-05-23 12:59:59",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 2
+                }
+              ]
+            },
+            "3": {
+              "score": 36448,
+              "gp": 10,
+              "bonus": 0,
+              "total": 10,
+              "rank": 7,
+              "rounds": [
+                {
+                  "id": "7a6c4688-5e2b-4201-9759-3b3566da76d2",
+                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
+                  "round_number": 1,
+                  "score": 9932,
+                  "years_off": 1,
+                  "distance_meters": 878,
+                  "created_at": "2026-05-30 12:01:52",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 3
+                },
+                {
+                  "id": "a668390c-fd9d-4133-8bb6-f6749bfd7cf2",
+                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
+                  "round_number": 2,
+                  "score": 6830,
+                  "years_off": 0,
+                  "distance_meters": 2009100,
+                  "created_at": "2026-05-30 12:01:52",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 3
+                },
+                {
+                  "id": "37dde4ed-6a4d-459c-b5e9-8d6e3b234ebd",
+                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
+                  "round_number": 3,
+                  "score": 6883,
+                  "years_off": 5,
+                  "distance_meters": 1033500,
+                  "created_at": "2026-05-30 12:01:52",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 3
+                },
+                {
+                  "id": "7abd374c-eb4b-4f56-bd02-d4277f64e007",
+                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
+                  "round_number": 4,
+                  "score": 5374,
+                  "years_off": 20,
+                  "distance_meters": 125600,
+                  "created_at": "2026-05-30 12:01:52",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 3
+                },
+                {
+                  "id": "7748d0cd-90bb-4664-b82c-65597ce4173d",
+                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
+                  "round_number": 5,
+                  "score": 7429,
+                  "years_off": 8,
+                  "distance_meters": 3200,
+                  "created_at": "2026-05-30 12:01:52",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 3
+                }
+              ]
+            },
+            "4": {
+              "score": 38306,
+              "gp": 11,
+              "bonus": 0,
+              "total": 11,
+              "rank": 6,
+              "rounds": [
+                {
+                  "id": "b7b11f5b-3770-49a3-b90c-7c0093ce6867",
+                  "game_result_id": "c6d4bd79-e6fb-450a-ae48-85da39ad099f",
+                  "round_number": 1,
+                  "score": 9956,
+                  "years_off": 0,
+                  "distance_meters": 1500,
+                  "created_at": "2026-06-07 09:00:19",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 4
+                },
+                {
+                  "id": "6ef2b114-186e-4072-8c81-76ae96d3fde5",
+                  "game_result_id": "c6d4bd79-e6fb-450a-ae48-85da39ad099f",
+                  "round_number": 2,
+                  "score": 6992,
+                  "years_off": 13,
+                  "distance_meters": 417,
+                  "created_at": "2026-06-07 09:00:19",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 4
+                },
+                {
+                  "id": "5f30468a-7c33-4766-b2b6-2aedd9617354",
+                  "game_result_id": "c6d4bd79-e6fb-450a-ae48-85da39ad099f",
+                  "round_number": 3,
+                  "score": 6044,
+                  "years_off": 8,
+                  "distance_meters": 955700,
+                  "created_at": "2026-06-07 09:00:19",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 4
+                },
+                {
+                  "id": "3dba96cd-8616-48d5-8a90-4eb20f600463",
+                  "game_result_id": "c6d4bd79-e6fb-450a-ae48-85da39ad099f",
+                  "round_number": 4,
+                  "score": 6929,
+                  "years_off": 15,
+                  "distance_meters": 3200,
+                  "created_at": "2026-06-07 09:00:19",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 4
+                },
+                {
+                  "id": "c7d669cc-c8c3-4a5a-9d56-af8d47401ee2",
+                  "game_result_id": "c6d4bd79-e6fb-450a-ae48-85da39ad099f",
+                  "round_number": 5,
+                  "score": 8385,
+                  "years_off": 7,
+                  "distance_meters": 727,
+                  "created_at": "2026-06-07 09:00:19",
+                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
+                  "game_number": 4
+                }
+              ]
+            }
+          },
+          "cumulativeGp": {
+            "1": 25,
+            "2": 40,
+            "3": 50,
+            "4": 61
+          },
+          "trend": "same"
+        },
+        {
           "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
           "name": "n_pikhovkin",
           "totalGp": 57,
@@ -4015,212 +4285,6 @@
             "2": 34,
             "3": 51,
             "4": 51
-          },
-          "trend": "same"
-        },
-        {
-          "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-          "name": "nastiakoleso",
-          "totalGp": 50,
-          "games": {
-            "1": {
-              "score": 48234,
-              "gp": 25,
-              "bonus": 0,
-              "total": 25,
-              "rank": 1,
-              "rounds": [
-                {
-                  "id": "9143428a-656f-4cae-a001-558a5a0e86b6",
-                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
-                  "round_number": 1,
-                  "score": 9998,
-                  "years_off": 0,
-                  "distance_meters": 83,
-                  "created_at": "2026-05-17 10:49:57",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 1
-                },
-                {
-                  "id": "fe86458a-ccd3-4d1b-bffb-a8c1766c81ce",
-                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
-                  "round_number": 2,
-                  "score": 9326,
-                  "years_off": 1,
-                  "distance_meters": 123800,
-                  "created_at": "2026-05-17 10:49:57",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 1
-                },
-                {
-                  "id": "97210c3d-2ca5-4e57-808c-da423769c3cf",
-                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
-                  "round_number": 3,
-                  "score": 9827,
-                  "years_off": 1,
-                  "distance_meters": 5900,
-                  "created_at": "2026-05-17 10:49:57",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 1
-                },
-                {
-                  "id": "37fb032e-50ab-4c6d-bb6a-662516c6ccc1",
-                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
-                  "round_number": 4,
-                  "score": 9939,
-                  "years_off": 1,
-                  "distance_meters": 548,
-                  "created_at": "2026-05-17 10:49:57",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 1
-                },
-                {
-                  "id": "325a58cc-0c44-4e4b-9a65-4c8a6b88b60a",
-                  "game_result_id": "13815c49-2b06-48a2-9a86-ddd2d6e1fc4f",
-                  "round_number": 5,
-                  "score": 9144,
-                  "years_off": 1,
-                  "distance_meters": 306000,
-                  "created_at": "2026-05-17 10:49:57",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 1
-                }
-              ]
-            },
-            "2": {
-              "score": 39866,
-              "gp": 15,
-              "bonus": 0,
-              "total": 15,
-              "rank": 4,
-              "rounds": [
-                {
-                  "id": "ef501a1b-2861-4b32-b374-13687327581e",
-                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
-                  "round_number": 1,
-                  "score": 9875,
-                  "years_off": 0,
-                  "distance_meters": 6400,
-                  "created_at": "2026-05-23 12:59:59",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 2
-                },
-                {
-                  "id": "21ea0ef6-ce55-406f-9461-0337d5a412fe",
-                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
-                  "round_number": 2,
-                  "score": 9298,
-                  "years_off": 4,
-                  "distance_meters": 81,
-                  "created_at": "2026-05-23 12:59:59",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 2
-                },
-                {
-                  "id": "2af1c0cb-1a2c-46bc-ad6d-2e3382ea104c",
-                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
-                  "round_number": 3,
-                  "score": 7500,
-                  "years_off": 9,
-                  "distance_meters": 10,
-                  "created_at": "2026-05-23 12:59:59",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 2
-                },
-                {
-                  "id": "0c5ed6b3-fae1-4512-94a5-6b4d658d54fe",
-                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
-                  "round_number": 4,
-                  "score": 6266,
-                  "years_off": 14,
-                  "distance_meters": 233600,
-                  "created_at": "2026-05-23 12:59:59",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 2
-                },
-                {
-                  "id": "9aa5c757-bf94-4848-b02c-2f784dd6ea23",
-                  "game_result_id": "efe7c1ac-3d02-47a4-b4d7-c80c9c8aee6a",
-                  "round_number": 5,
-                  "score": 6927,
-                  "years_off": 14,
-                  "distance_meters": 3300,
-                  "created_at": "2026-05-23 12:59:59",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 2
-                }
-              ]
-            },
-            "3": {
-              "score": 36448,
-              "gp": 10,
-              "bonus": 0,
-              "total": 10,
-              "rank": 7,
-              "rounds": [
-                {
-                  "id": "7a6c4688-5e2b-4201-9759-3b3566da76d2",
-                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
-                  "round_number": 1,
-                  "score": 9932,
-                  "years_off": 1,
-                  "distance_meters": 878,
-                  "created_at": "2026-05-30 12:01:52",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 3
-                },
-                {
-                  "id": "a668390c-fd9d-4133-8bb6-f6749bfd7cf2",
-                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
-                  "round_number": 2,
-                  "score": 6830,
-                  "years_off": 0,
-                  "distance_meters": 2009100,
-                  "created_at": "2026-05-30 12:01:52",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 3
-                },
-                {
-                  "id": "37dde4ed-6a4d-459c-b5e9-8d6e3b234ebd",
-                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
-                  "round_number": 3,
-                  "score": 6883,
-                  "years_off": 5,
-                  "distance_meters": 1033500,
-                  "created_at": "2026-05-30 12:01:52",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 3
-                },
-                {
-                  "id": "7abd374c-eb4b-4f56-bd02-d4277f64e007",
-                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
-                  "round_number": 4,
-                  "score": 5374,
-                  "years_off": 20,
-                  "distance_meters": 125600,
-                  "created_at": "2026-05-30 12:01:52",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 3
-                },
-                {
-                  "id": "7748d0cd-90bb-4664-b82c-65597ce4173d",
-                  "game_result_id": "59165d72-20c2-4237-aaa5-7401b5a93baf",
-                  "round_number": 5,
-                  "score": 7429,
-                  "years_off": 8,
-                  "distance_meters": 3200,
-                  "created_at": "2026-05-30 12:01:52",
-                  "participant_id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
-                  "game_number": 3
-                }
-              ]
-            }
-          },
-          "cumulativeGp": {
-            "1": 25,
-            "2": 40,
-            "3": 50,
-            "4": 50
           },
           "trend": "same"
         },
@@ -4909,7 +4973,7 @@
         {
           "id": "5947e79d-be5a-4706-9616-8cc1afbefec7",
           "name": "AlexKrasnov",
-          "totalGp": 26,
+          "totalGp": 25,
           "games": {
             "1": {
               "score": 36883,
@@ -5041,10 +5105,10 @@
             },
             "4": {
               "score": 33240,
-              "gp": 11,
+              "gp": 10,
               "bonus": 0,
-              "total": 11,
-              "rank": 6,
+              "total": 10,
+              "rank": 7,
               "rounds": [
                 {
                   "id": "46640d8f-db37-43c7-870b-8a9d72892e7c",
@@ -5108,7 +5172,7 @@
             "1": 6,
             "2": 6,
             "3": 15,
-            "4": 26
+            "4": 25
           },
           "trend": "up"
         },
@@ -5367,8 +5431,8 @@
             "scoresCount": 4
           },
           "comebacker": null,
-          "disasterScaleKm": 113323.724,
-          "timeTravelYears": 1002,
+          "disasterScaleKm": 114285.268,
+          "timeTravelYears": 1045,
           "needsWork": "locations",
           "gotSmarter": false
         },
@@ -5434,7 +5498,7 @@
             },
             "stuckInTextures": {
               "round": "2",
-              "avgScore": 7316.333333333333
+              "avgScore": 7270
             }
           }
         }
