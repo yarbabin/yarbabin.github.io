@@ -6,21 +6,21 @@
     "telegram_username": null
   },
   "bestResultAllTime": {
-    "total_score": 47172,
-    "game_number": 8,
-    "cup_name": "Кубок Соединенных Штатов Гренландии",
-    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
-  },
-  "averageResultAllTime": 43789.307692307695,
-  "bestResultInCup": {
-    "total_score": 45939,
-    "game_number": 1,
+    "total_score": 47447,
+    "game_number": 4,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 45125,
+  "averageResultAllTime": 44050.57142857143,
+  "bestResultInCup": {
+    "total_score": 47447,
+    "game_number": 4,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultInCup": 45705.5,
   "currentCupPlace": {
-    "place": 5,
+    "place": 3,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [
