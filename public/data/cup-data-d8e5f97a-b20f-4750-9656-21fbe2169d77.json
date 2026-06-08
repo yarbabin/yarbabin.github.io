@@ -4895,7 +4895,7 @@
         {
           "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
           "name": "cyberpunkych",
-          "totalGp": 26,
+          "totalGp": 35,
           "games": {
             "1": {
               "score": 41708,
@@ -5088,13 +5088,77 @@
                   "game_number": 3
                 }
               ]
+            },
+            "4": {
+              "score": 38223,
+              "gp": 9,
+              "bonus": 0,
+              "total": 9,
+              "rank": 8,
+              "rounds": [
+                {
+                  "id": "7f2a535a-1fd1-4830-b0de-f581baaa006a",
+                  "game_result_id": "47104924-f477-4fce-9128-3785d1cc1c03",
+                  "round_number": 1,
+                  "score": 9528,
+                  "years_off": 1,
+                  "distance_meters": 80500,
+                  "created_at": "2026-06-08 09:58:34",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 4
+                },
+                {
+                  "id": "70cd5082-578e-4e6c-8b2a-8dfb3e37ce88",
+                  "game_result_id": "47104924-f477-4fce-9128-3785d1cc1c03",
+                  "round_number": 2,
+                  "score": 5084,
+                  "years_off": 17,
+                  "distance_meters": 415600,
+                  "created_at": "2026-06-08 09:58:34",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 4
+                },
+                {
+                  "id": "81654093-e813-46fc-8e4a-8eb3770f3797",
+                  "game_result_id": "47104924-f477-4fce-9128-3785d1cc1c03",
+                  "round_number": 3,
+                  "score": 5257,
+                  "years_off": 10,
+                  "distance_meters": 1485300,
+                  "created_at": "2026-06-08 09:58:34",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 4
+                },
+                {
+                  "id": "14e22c3a-b9ea-454c-989e-4fd86beaf2b7",
+                  "game_result_id": "47104924-f477-4fce-9128-3785d1cc1c03",
+                  "round_number": 4,
+                  "score": 8770,
+                  "years_off": 5,
+                  "distance_meters": 7500,
+                  "created_at": "2026-06-08 09:58:34",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 4
+                },
+                {
+                  "id": "52e84985-d2d8-4cf9-bfd0-6e33536a10d8",
+                  "game_result_id": "47104924-f477-4fce-9128-3785d1cc1c03",
+                  "round_number": 5,
+                  "score": 9584,
+                  "years_off": 3,
+                  "distance_meters": 788,
+                  "created_at": "2026-06-08 09:58:34",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 4
+                }
+              ]
             }
           },
           "cumulativeGp": {
             "1": 9,
             "2": 19,
             "3": 26,
-            "4": 26
+            "4": 35
           },
           "trend": "same"
         },
@@ -5307,7 +5371,7 @@
         {
           "id": "5947e79d-be5a-4706-9616-8cc1afbefec7",
           "name": "AlexKrasnov",
-          "totalGp": 24,
+          "totalGp": 23,
           "games": {
             "1": {
               "score": 36883,
@@ -5439,10 +5503,10 @@
             },
             "4": {
               "score": 33240,
-              "gp": 9,
+              "gp": 8,
               "bonus": 0,
-              "total": 9,
-              "rank": 8,
+              "total": 8,
+              "rank": 9,
               "rounds": [
                 {
                   "id": "46640d8f-db37-43c7-870b-8a9d72892e7c",
@@ -5506,7 +5570,7 @@
             "1": 6,
             "2": 6,
             "3": 15,
-            "4": 24
+            "4": 23
           },
           "trend": "same"
         },
@@ -5559,8 +5623,8 @@
             "scoresCount": 4
           },
           "comebacker": null,
-          "disasterScaleKm": 114820.666,
-          "timeTravelYears": 1067,
+          "disasterScaleKm": 116810.354,
+          "timeTravelYears": 1103,
           "needsWork": "locations",
           "gotSmarter": false
         },
@@ -5626,7 +5690,7 @@
             },
             "stuckInTextures": {
               "round": "2",
-              "avgScore": 7283.5
+              "avgScore": 7039.111111111111
             }
           }
         }
