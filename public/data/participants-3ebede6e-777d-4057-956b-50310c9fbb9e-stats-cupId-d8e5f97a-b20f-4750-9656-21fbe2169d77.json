@@ -3,7 +3,7 @@
     "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
     "name": "nghtf",
     "created_at": "2026-05-16 17:51:10",
-    "telegram_username": null
+    "telegram_username": "1."
   },
   "bestResultAllTime": {
     "total_score": 49359,
@@ -11,16 +11,16 @@
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
   },
-  "averageResultAllTime": 44062.625,
+  "averageResultAllTime": 44246.56,
   "bestResultInCup": {
-    "total_score": 48198,
-    "game_number": 1,
+    "total_score": 48661,
+    "game_number": 5,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 47027,
+  "averageResultInCup": 47353.8,
   "currentCupPlace": {
-    "place": 3,
+    "place": 1,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [
