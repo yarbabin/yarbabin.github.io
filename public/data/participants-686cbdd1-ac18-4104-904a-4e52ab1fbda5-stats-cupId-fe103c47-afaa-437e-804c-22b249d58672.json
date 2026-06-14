@@ -3,7 +3,7 @@
     "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
     "name": "DanilMoiseev",
     "created_at": "2026-05-16 19:00:27",
-    "telegram_username": null
+    "telegram_username": "1."
   },
   "bestResultAllTime": {
     "total_score": 45327,
@@ -11,7 +11,7 @@
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 39530.71428571428,
+  "averageResultAllTime": 39770.666666666664,
   "bestResultInCup": {
     "total_score": 43363,
     "game_number": 6,
@@ -26,7 +26,7 @@
   "previousCupsPlaces": [
     {
       "cup_name": "Американский халифат",
-      "place": 5,
+      "place": 2,
       "league_name": "Любительская",
       "created_at": "2026-05-16 17:46:17"
     }
