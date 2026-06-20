@@ -3,7 +3,7 @@
     "id": "04457425-1399-40ad-88d9-12dc23492158",
     "name": "valeria_trusova",
     "created_at": "2026-05-18 19:32:41",
-    "telegram_username": "1."
+    "telegram_username": null
   },
   "bestResultAllTime": {
     "total_score": 46035,
@@ -18,7 +18,7 @@
   "previousCupsPlaces": [
     {
       "cup_name": "Американский халифат",
-      "place": 4,
+      "place": 5,
       "league_name": "Любительская",
       "created_at": "2026-05-16 17:46:17"
     }
