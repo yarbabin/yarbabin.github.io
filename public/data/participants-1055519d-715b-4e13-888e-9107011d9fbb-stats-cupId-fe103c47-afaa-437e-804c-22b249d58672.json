@@ -3,7 +3,7 @@
     "id": "1055519d-715b-4e13-888e-9107011d9fbb",
     "name": "axnklv",
     "created_at": "2026-05-16 18:59:49",
-    "telegram_username": null
+    "telegram_username": "1."
   },
   "bestResultAllTime": {
     "total_score": 49131,
@@ -11,7 +11,7 @@
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
   },
-  "averageResultAllTime": 44511.86666666667,
+  "averageResultAllTime": 44271.375,
   "bestResultInCup": {
     "total_score": 49131,
     "game_number": 7,
