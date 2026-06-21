@@ -1,0 +1,27 @@
+{
+  "participant": {
+    "id": "04457425-1399-40ad-88d9-12dc23492158",
+    "name": "valeria_trusova",
+    "created_at": "2026-05-18 19:32:41",
+    "telegram_username": null
+  },
+  "bestResultAllTime": {
+    "total_score": 46035,
+    "game_number": 1,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultAllTime": 43308.666666666664,
+  "bestResultInCup": {
+    "total_score": 46035,
+    "game_number": 1,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultInCup": 43308.666666666664,
+  "currentCupPlace": {
+    "place": 2,
+    "league_name": "Любительская"
+  },
+  "previousCupsPlaces": []
+}

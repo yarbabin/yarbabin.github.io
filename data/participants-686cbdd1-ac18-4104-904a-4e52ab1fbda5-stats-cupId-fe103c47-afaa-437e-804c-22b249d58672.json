@@ -1,0 +1,34 @@
+{
+  "participant": {
+    "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+    "name": "DanilMoiseev",
+    "created_at": "2026-05-16 19:00:27",
+    "telegram_username": "1."
+  },
+  "bestResultAllTime": {
+    "total_score": 45327,
+    "game_number": 2,
+    "cup_name": "Американский халифат",
+    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+  },
+  "averageResultAllTime": 39977.125,
+  "bestResultInCup": {
+    "total_score": 43363,
+    "game_number": 6,
+    "cup_name": "Кубок Соединенных Штатов Гренландии",
+    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
+  },
+  "averageResultInCup": 38065.7,
+  "currentCupPlace": {
+    "place": 4,
+    "league_name": "Претенденты"
+  },
+  "previousCupsPlaces": [
+    {
+      "cup_name": "Американский халифат",
+      "place": 3,
+      "league_name": "Любительская",
+      "created_at": "2026-05-16 17:46:17"
+    }
+  ]
+}
