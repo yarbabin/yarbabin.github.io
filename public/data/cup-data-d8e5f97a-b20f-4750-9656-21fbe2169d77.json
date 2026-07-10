@@ -3198,7 +3198,7 @@
         {
           "id": "6d0c84a2-e2aa-4f03-9ba6-b6a1bdbe9720",
           "name": "gospodinmir",
-          "totalGp": 85,
+          "totalGp": 93,
           "games": {
             "1": {
               "score": 46465,
@@ -3647,6 +3647,70 @@
                   "game_number": 7
                 }
               ]
+            },
+            "8": {
+              "score": 37101,
+              "gp": 8,
+              "bonus": 0,
+              "total": 8,
+              "rank": 9,
+              "rounds": [
+                {
+                  "id": "cb4d9de7-036e-4446-a0ad-4614420a666b",
+                  "game_result_id": "623d793e-0cb6-4fd0-a6c9-1d8ff4f07e9a",
+                  "round_number": 1,
+                  "score": 7649,
+                  "years_off": 1,
+                  "distance_meters": 1602100,
+                  "created_at": "2026-07-10 16:40:46",
+                  "participant_id": "6d0c84a2-e2aa-4f03-9ba6-b6a1bdbe9720",
+                  "game_number": 8
+                },
+                {
+                  "id": "47978534-72fd-4bef-aae3-5774e6976fad",
+                  "game_result_id": "623d793e-0cb6-4fd0-a6c9-1d8ff4f07e9a",
+                  "round_number": 2,
+                  "score": 9852,
+                  "years_off": 0,
+                  "distance_meters": 12100,
+                  "created_at": "2026-07-10 16:40:46",
+                  "participant_id": "6d0c84a2-e2aa-4f03-9ba6-b6a1bdbe9720",
+                  "game_number": 8
+                },
+                {
+                  "id": "f743b070-2c9b-4fc5-961b-f073ce55bd11",
+                  "game_result_id": "623d793e-0cb6-4fd0-a6c9-1d8ff4f07e9a",
+                  "round_number": 3,
+                  "score": 7348,
+                  "years_off": 9,
+                  "distance_meters": 13000,
+                  "created_at": "2026-07-10 16:40:46",
+                  "participant_id": "6d0c84a2-e2aa-4f03-9ba6-b6a1bdbe9720",
+                  "game_number": 8
+                },
+                {
+                  "id": "3b2351cf-993d-4df4-af2f-c0f3e31ff66c",
+                  "game_result_id": "623d793e-0cb6-4fd0-a6c9-1d8ff4f07e9a",
+                  "round_number": 4,
+                  "score": 2659,
+                  "years_off": 30,
+                  "distance_meters": 1682700,
+                  "created_at": "2026-07-10 16:40:46",
+                  "participant_id": "6d0c84a2-e2aa-4f03-9ba6-b6a1bdbe9720",
+                  "game_number": 8
+                },
+                {
+                  "id": "316d4fd4-d815-4566-b633-a59110f0e8a0",
+                  "game_result_id": "623d793e-0cb6-4fd0-a6c9-1d8ff4f07e9a",
+                  "round_number": 5,
+                  "score": 9593,
+                  "years_off": 3,
+                  "distance_meters": 349.7,
+                  "created_at": "2026-07-10 16:40:46",
+                  "participant_id": "6d0c84a2-e2aa-4f03-9ba6-b6a1bdbe9720",
+                  "game_number": 8
+                }
+              ]
             }
           },
           "cumulativeGp": {
@@ -3657,7 +3721,7 @@
             "5": 58,
             "6": 78,
             "7": 85,
-            "8": 85
+            "8": 93
           },
           "trend": "same"
         },
@@ -5134,7 +5198,7 @@
         {
           "id": "fcebb5f6-4a13-472c-b326-13c645647c30",
           "name": "so_drobysheva",
-          "totalGp": 53,
+          "totalGp": 52,
           "games": {
             "1": {
               "score": 42201,
@@ -5522,10 +5586,10 @@
             },
             "8": {
               "score": 34865,
-              "gp": 8,
+              "gp": 7,
               "bonus": 0,
-              "total": 8,
-              "rank": 9,
+              "total": 7,
+              "rank": 10,
               "rounds": [
                 {
                   "id": "145a40e0-af56-46f2-9aca-e8561f61e88f",
@@ -5593,7 +5657,7 @@
             "5": 35,
             "6": 45,
             "7": 45,
-            "8": 53
+            "8": 52
           },
           "trend": "same"
         },
@@ -5709,14 +5773,14 @@
           "rollercoaster": {
             "id": "6d0c84a2-e2aa-4f03-9ba6-b6a1bdbe9720",
             "name": "gospodinmir",
-            "avgDist": 383514.45714285714,
-            "avgYears": 4.9714285714285715,
-            "variance": 20082406.775510203,
-            "scoresCount": 7
+            "avgDist": 418331.39249999996,
+            "avgYears": 5.425,
+            "variance": 19998197.5,
+            "scoresCount": 8
           },
           "comebacker": null,
-          "disasterScaleKm": 215041.058,
-          "timeTravelYears": 1718,
+          "disasterScaleKm": 218351.30769999998,
+          "timeTravelYears": 1761,
           "needsWork": "locations",
           "gotSmarter": false
         },
@@ -5846,7 +5910,7 @@
             },
             "stuckInTextures": {
               "round": "4",
-              "avgScore": 6395.777777777777
+              "avgScore": 6022.1
             }
           }
         }
