@@ -3,7 +3,7 @@
     "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
     "name": "n_pikhovkin",
     "created_at": "2026-05-16 17:51:23",
-    "telegram_username": null
+    "telegram_username": "1."
   },
   "bestResultAllTime": {
     "total_score": 45567,
@@ -11,16 +11,16 @@
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 41637.57142857143,
+  "averageResultAllTime": 42001.25,
   "bestResultInCup": {
     "total_score": 45567,
     "game_number": 1,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 41637.57142857143,
+  "averageResultInCup": 42001.25,
   "currentCupPlace": {
-    "place": 6,
+    "place": 5,
     "league_name": "Любительская"
   },
   "previousCupsPlaces": []
