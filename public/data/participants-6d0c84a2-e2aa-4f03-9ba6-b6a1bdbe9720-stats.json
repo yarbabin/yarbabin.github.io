@@ -11,14 +11,14 @@
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 39525.88,
+  "averageResultAllTime": 39756.46153846154,
   "bestResultInCup": null,
   "averageResultInCup": 0,
   "currentCupPlace": null,
   "previousCupsPlaces": [
     {
       "cup_name": "Американский халифат",
-      "place": 8,
+      "place": 6,
       "league_name": "Основа",
       "created_at": "2026-05-16 17:46:17"
     },
