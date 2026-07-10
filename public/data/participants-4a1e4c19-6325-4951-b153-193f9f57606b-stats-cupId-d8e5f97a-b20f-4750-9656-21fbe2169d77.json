@@ -11,14 +11,14 @@
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
   },
-  "averageResultAllTime": 35865.6875,
+  "averageResultAllTime": 35465.94117647059,
   "bestResultInCup": {
     "total_score": 41708,
     "game_number": 1,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 37263.666666666664,
+  "averageResultInCup": 36093.142857142855,
   "currentCupPlace": {
     "place": 9,
     "league_name": "Любительская"
