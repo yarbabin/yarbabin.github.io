@@ -47,16 +47,16 @@
           "name": "Любительская",
           "top3": [
             {
+              "name": "valeria_trusova",
+              "totalGp": 126
+            },
+            {
               "name": "svv1997",
               "totalGp": 123
             },
             {
-              "name": "n_pikhovkin",
-              "totalGp": 103
-            },
-            {
-              "name": "valeria_trusova",
-              "totalGp": 101
+              "name": "DanilMoiseev",
+              "totalGp": 100
             }
           ]
         }
