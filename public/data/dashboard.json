@@ -30,15 +30,15 @@
           "top3": [
             {
               "name": "nghtf",
-              "totalGp": 135
+              "totalGp": 130
+            },
+            {
+              "name": "GBrooklyn",
+              "totalGp": 128
             },
             {
               "name": "axnklv",
               "totalGp": 122
-            },
-            {
-              "name": "GBrooklyn",
-              "totalGp": 103
             }
           ]
         },
