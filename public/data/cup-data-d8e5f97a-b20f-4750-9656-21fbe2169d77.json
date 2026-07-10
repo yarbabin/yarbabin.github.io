@@ -6419,7 +6419,7 @@
         {
           "id": "04457425-1399-40ad-88d9-12dc23492158",
           "name": "valeria_trusova",
-          "totalGp": 116,
+          "totalGp": 136,
           "games": {
             "1": {
               "score": 46035,
@@ -6868,6 +6868,70 @@
                   "game_number": 7
                 }
               ]
+            },
+            "8": {
+              "score": 41292,
+              "gp": 20,
+              "bonus": 0,
+              "total": 20,
+              "rank": 2,
+              "rounds": [
+                {
+                  "id": "42000866-4d28-4724-8ce6-c3de23351f5a",
+                  "game_result_id": "3bdbef28-81be-41db-be4a-6ebcbc88d69b",
+                  "round_number": 1,
+                  "score": 7818,
+                  "years_off": 1,
+                  "distance_meters": 1264300,
+                  "created_at": "2026-07-10 16:27:31",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 8
+                },
+                {
+                  "id": "63139afe-2c0a-4e41-9b58-77af4a459777",
+                  "game_result_id": "3bdbef28-81be-41db-be4a-6ebcbc88d69b",
+                  "round_number": 2,
+                  "score": 9869,
+                  "years_off": 0,
+                  "distance_meters": 7800,
+                  "created_at": "2026-07-10 16:27:31",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 8
+                },
+                {
+                  "id": "0afbb726-1aa0-4663-9e20-f6209224aceb",
+                  "game_result_id": "3bdbef28-81be-41db-be4a-6ebcbc88d69b",
+                  "round_number": 3,
+                  "score": 9800,
+                  "years_off": 2,
+                  "distance_meters": 23,
+                  "created_at": "2026-07-10 16:27:31",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 8
+                },
+                {
+                  "id": "ffa7f18a-5c9e-4b45-af7e-ba893d9c70ea",
+                  "game_result_id": "3bdbef28-81be-41db-be4a-6ebcbc88d69b",
+                  "round_number": 4,
+                  "score": 8361,
+                  "years_off": 7,
+                  "distance_meters": 1200,
+                  "created_at": "2026-07-10 16:27:31",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 8
+                },
+                {
+                  "id": "26df4f31-1ac7-4503-ac0c-8f746fe86fea",
+                  "game_result_id": "3bdbef28-81be-41db-be4a-6ebcbc88d69b",
+                  "round_number": 5,
+                  "score": 5444,
+                  "years_off": 0,
+                  "distance_meters": 5279700,
+                  "created_at": "2026-07-10 16:27:31",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 8
+                }
+              ]
             }
           },
           "cumulativeGp": {
@@ -6878,7 +6942,7 @@
             "5": 81,
             "6": 101,
             "7": 116,
-            "8": 116
+            "8": 136
           },
           "trend": "same"
         },
@@ -8283,7 +8347,7 @@
         {
           "id": "31036631-7a9f-4875-9d66-aa7f7b8ca85c",
           "name": "qocjvjskaj",
-          "totalGp": 89,
+          "totalGp": 86,
           "games": {
             "1": {
               "score": 42319,
@@ -8735,10 +8799,10 @@
             },
             "8": {
               "score": 37466,
-              "gp": 20,
+              "gp": 17,
               "bonus": 0,
-              "total": 20,
-              "rank": 2,
+              "total": 17,
+              "rank": 3,
               "rounds": [
                 {
                   "id": "b880c562-f5e3-4d84-a4b9-928c9422f50b",
@@ -8806,7 +8870,7 @@
             "5": 49,
             "6": 58,
             "7": 69,
-            "8": 89
+            "8": 86
           },
           "trend": "up"
         },
@@ -9279,7 +9343,7 @@
         {
           "id": "5947e79d-be5a-4706-9616-8cc1afbefec7",
           "name": "AlexKrasnov",
-          "totalGp": 61,
+          "totalGp": 59,
           "games": {
             "1": {
               "score": 36883,
@@ -9667,10 +9731,10 @@
             },
             "8": {
               "score": 23356,
-              "gp": 17,
+              "gp": 15,
               "bonus": 0,
-              "total": 17,
-              "rank": 3,
+              "total": 15,
+              "rank": 4,
               "rounds": [
                 {
                   "id": "f3302b00-fcca-4d57-8c87-64fc253e0915",
@@ -9738,7 +9802,7 @@
             "5": 29,
             "6": 36,
             "7": 44,
-            "8": 61
+            "8": 59
           },
           "trend": "up"
         },
@@ -10415,8 +10479,8 @@
             "scoresCount": 3
           },
           "comebacker": null,
-          "disasterScaleKm": 252107.759,
-          "timeTravelYears": 1967,
+          "disasterScaleKm": 258660.782,
+          "timeTravelYears": 1977,
           "needsWork": "locations",
           "gotSmarter": false
         },
@@ -10545,8 +10609,8 @@
               "avgYears": 1.2
             },
             "stuckInTextures": {
-              "round": "2",
-              "avgScore": 6748
+              "round": "5",
+              "avgScore": 6517.5
             }
           }
         }
