@@ -11,14 +11,14 @@
     "cup_name": "Кубок Нормандии",
     "cup_id": "789ef469-dccc-4edb-9482-3e7c44b213ac"
   },
-  "averageResultAllTime": 41499.653846153844,
+  "averageResultAllTime": 41283.37037037037,
   "bestResultInCup": null,
   "averageResultInCup": 0,
   "currentCupPlace": null,
   "previousCupsPlaces": [
     {
       "cup_name": "Американский халифат",
-      "place": 9,
+      "place": 8,
       "league_name": "Основа",
       "created_at": "2026-05-16 17:46:17"
     },
