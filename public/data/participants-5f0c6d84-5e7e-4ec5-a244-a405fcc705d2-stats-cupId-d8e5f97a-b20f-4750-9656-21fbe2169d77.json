@@ -3,7 +3,7 @@
     "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
     "name": "nastiakoleso",
     "created_at": "2026-05-16 18:58:29",
-    "telegram_username": null
+    "telegram_username": "1."
   },
   "bestResultAllTime": {
     "total_score": 48234,
@@ -11,16 +11,16 @@
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 39872.75,
+  "averageResultAllTime": 40221.64705882353,
   "bestResultInCup": {
     "total_score": 48234,
     "game_number": 1,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 40655.57142857143,
+  "averageResultInCup": 41299.125,
   "currentCupPlace": {
-    "place": 6,
+    "place": 5,
     "league_name": "Любительская"
   },
   "previousCupsPlaces": [
