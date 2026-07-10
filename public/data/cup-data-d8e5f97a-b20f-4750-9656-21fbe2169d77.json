@@ -10047,7 +10047,7 @@
         {
           "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
           "name": "cyberpunkych",
-          "totalGp": 58,
+          "totalGp": 66,
           "games": {
             "1": {
               "score": 41708,
@@ -10440,6 +10440,70 @@
               "total": 7,
               "rank": 10,
               "rounds": []
+            },
+            "8": {
+              "score": 33425,
+              "gp": 8,
+              "bonus": 0,
+              "total": 8,
+              "rank": 9,
+              "rounds": [
+                {
+                  "id": "2a340b43-4d9b-4c2e-bdf7-6f92e6e6cd1c",
+                  "game_result_id": "f7680852-5b69-4714-acea-74aed56dbb70",
+                  "round_number": 1,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:39:51",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 8
+                },
+                {
+                  "id": "0103c683-dc1f-49a7-b816-98cab6881484",
+                  "game_result_id": "f7680852-5b69-4714-acea-74aed56dbb70",
+                  "round_number": 2,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:39:51",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 8
+                },
+                {
+                  "id": "6c04c193-c756-4adc-a0ef-123a41792cc5",
+                  "game_result_id": "f7680852-5b69-4714-acea-74aed56dbb70",
+                  "round_number": 3,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:39:51",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 8
+                },
+                {
+                  "id": "86a15a2c-b82a-489f-8cb7-8c94343232d3",
+                  "game_result_id": "f7680852-5b69-4714-acea-74aed56dbb70",
+                  "round_number": 4,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:39:51",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 8
+                },
+                {
+                  "id": "d30a5e54-afa3-4eac-bb69-5f2c22ec59ac",
+                  "game_result_id": "f7680852-5b69-4714-acea-74aed56dbb70",
+                  "round_number": 5,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:39:51",
+                  "participant_id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+                  "game_number": 8
+                }
+              ]
             }
           },
           "cumulativeGp": {
@@ -10450,14 +10514,14 @@
             "5": 43,
             "6": 51,
             "7": 58,
-            "8": 58
+            "8": 66
           },
           "trend": "same"
         },
         {
           "id": "5947e79d-be5a-4706-9616-8cc1afbefec7",
           "name": "AlexKrasnov",
-          "totalGp": 52,
+          "totalGp": 51,
           "games": {
             "1": {
               "score": 36883,
@@ -10845,10 +10909,10 @@
             },
             "8": {
               "score": 23356,
-              "gp": 8,
+              "gp": 7,
               "bonus": 0,
-              "total": 8,
-              "rank": 9,
+              "total": 7,
+              "rank": 10,
               "rounds": [
                 {
                   "id": "f3302b00-fcca-4d57-8c87-64fc253e0915",
@@ -10916,7 +10980,7 @@
             "5": 29,
             "6": 36,
             "7": 44,
-            "8": 52
+            "8": 51
           },
           "trend": "same"
         },
@@ -11303,18 +11367,18 @@
           },
           "8": {
             "iWasHere": {
-              "id": "ab3bc934-8a89-4365-a34a-796a8b5bf762",
-              "name": "svv1997",
+              "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+              "name": "cyberpunkych",
               "distance": 0
             },
             "iLivedHere": {
-              "id": "ab3bc934-8a89-4365-a34a-796a8b5bf762",
-              "name": "svv1997",
+              "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
+              "name": "cyberpunkych",
               "avgYears": 0
             },
             "stuckInTextures": {
               "round": "5",
-              "avgScore": 6509.888888888889
+              "avgScore": 5858.9
             }
           }
         }
