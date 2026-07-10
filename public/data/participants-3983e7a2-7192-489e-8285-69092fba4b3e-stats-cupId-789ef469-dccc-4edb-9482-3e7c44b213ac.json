@@ -3,7 +3,7 @@
     "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
     "name": "pechenegit",
     "created_at": "2026-05-16 19:44:34",
-    "telegram_username": null
+    "telegram_username": "1."
   },
   "bestResultAllTime": {
     "total_score": 47895,
@@ -11,7 +11,7 @@
     "cup_name": "Кубок Нормандии",
     "cup_id": "789ef469-dccc-4edb-9482-3e7c44b213ac"
   },
-  "averageResultAllTime": 41283.37037037037,
+  "averageResultAllTime": 41164.53571428572,
   "bestResultInCup": {
     "total_score": 47895,
     "game_number": 2,

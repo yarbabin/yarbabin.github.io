@@ -3472,7 +3472,7 @@
         {
           "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
           "name": "pechenegit",
-          "totalGp": 65,
+          "totalGp": 80,
           "games": {
             "1": {
               "score": 45015,
@@ -3865,6 +3865,70 @@
               "total": 8,
               "rank": 9,
               "rounds": []
+            },
+            "8": {
+              "score": 37956,
+              "gp": 15,
+              "bonus": 0,
+              "total": 15,
+              "rank": 4,
+              "rounds": [
+                {
+                  "id": "fcb0918f-88a1-4016-9d9a-9e60fd0d26e4",
+                  "game_result_id": "8a6b10bc-ae9b-45fd-bad0-c08def347ff9",
+                  "round_number": 1,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:30:33",
+                  "participant_id": "3983e7a2-7192-489e-8285-69092fba4b3e",
+                  "game_number": 8
+                },
+                {
+                  "id": "74be4a22-b9fc-4e9d-8c08-a3e267023b38",
+                  "game_result_id": "8a6b10bc-ae9b-45fd-bad0-c08def347ff9",
+                  "round_number": 2,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:30:33",
+                  "participant_id": "3983e7a2-7192-489e-8285-69092fba4b3e",
+                  "game_number": 8
+                },
+                {
+                  "id": "77f515f7-9e9f-40e7-9f98-4cf78676a044",
+                  "game_result_id": "8a6b10bc-ae9b-45fd-bad0-c08def347ff9",
+                  "round_number": 3,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:30:33",
+                  "participant_id": "3983e7a2-7192-489e-8285-69092fba4b3e",
+                  "game_number": 8
+                },
+                {
+                  "id": "17c3fb69-8dff-45f3-9d3f-9b217bd8241f",
+                  "game_result_id": "8a6b10bc-ae9b-45fd-bad0-c08def347ff9",
+                  "round_number": 4,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:30:33",
+                  "participant_id": "3983e7a2-7192-489e-8285-69092fba4b3e",
+                  "game_number": 8
+                },
+                {
+                  "id": "579a77d1-bd74-4359-a9ab-f0c041ada12b",
+                  "game_result_id": "8a6b10bc-ae9b-45fd-bad0-c08def347ff9",
+                  "round_number": 5,
+                  "score": 0,
+                  "years_off": 0,
+                  "distance_meters": 0,
+                  "created_at": "2026-07-10 16:30:33",
+                  "participant_id": "3983e7a2-7192-489e-8285-69092fba4b3e",
+                  "game_number": 8
+                }
+              ]
             }
           },
           "cumulativeGp": {
@@ -3875,7 +3939,7 @@
             "5": 49,
             "6": 57,
             "7": 65,
-            "8": 65
+            "8": 80
           },
           "trend": "same"
         },
@@ -5334,7 +5398,7 @@
           "disasterScaleKm": 193280.015,
           "timeTravelYears": 1615,
           "needsWork": "locations",
-          "gotSmarter": true
+          "gotSmarter": false
         },
         "games": {
           "1": {
@@ -5451,18 +5515,18 @@
           },
           "8": {
             "iWasHere": {
-              "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
-              "name": "GBrooklyn",
-              "distance": 18512.2
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
+              "name": "pechenegit",
+              "distance": 0
             },
             "iLivedHere": {
-              "id": "a88354a1-8456-4999-bfa4-a8dd27e07fe7",
-              "name": "dvoryrom",
-              "avgYears": 1.4
+              "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
+              "name": "pechenegit",
+              "avgYears": 0
             },
             "stuckInTextures": {
               "round": "5",
-              "avgScore": 8443.666666666666
+              "avgScore": 6332.75
             }
           }
         }
