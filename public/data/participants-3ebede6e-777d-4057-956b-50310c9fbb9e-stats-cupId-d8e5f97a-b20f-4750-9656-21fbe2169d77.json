@@ -11,16 +11,16 @@
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
   },
-  "averageResultAllTime": 43908.730769230766,
+  "averageResultAllTime": 43891.25925925926,
   "bestResultInCup": {
     "total_score": 48661,
     "game_number": 5,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 45372,
+  "averageResultInCup": 45095.57142857143,
   "currentCupPlace": {
-    "place": 2,
+    "place": 1,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [
