@@ -476,7 +476,8 @@
             "4": 91,
             "5": 111,
             "6": 122,
-            "7": 133
+            "7": 133,
+            "8": 133
           },
           "trend": "same"
         },
@@ -941,7 +942,8 @@
             "4": 78,
             "5": 103,
             "6": 110,
-            "7": 125
+            "7": 125,
+            "8": 125
           },
           "trend": "same"
         },
@@ -1406,7 +1408,8 @@
             "4": 63,
             "5": 78,
             "6": 103,
-            "7": 123
+            "7": 123,
+            "8": 123
           },
           "trend": "same"
         },
@@ -1871,7 +1874,8 @@
             "4": 50,
             "5": 68,
             "6": 85,
-            "7": 110
+            "7": 110,
+            "8": 110
           },
           "trend": "same"
         },
@@ -2336,7 +2340,8 @@
             "4": 55,
             "5": 66,
             "6": 81,
-            "7": 98
+            "7": 98,
+            "8": 98
           },
           "trend": "same"
         },
@@ -2801,7 +2806,8 @@
             "4": 56,
             "5": 65,
             "6": 78,
-            "7": 91
+            "7": 91,
+            "8": 91
           },
           "trend": "same"
         },
@@ -3266,7 +3272,8 @@
             "4": 45,
             "5": 58,
             "6": 78,
-            "7": 85
+            "7": 85,
+            "8": 85
           },
           "trend": "down"
         },
@@ -3675,7 +3682,8 @@
             "4": 39,
             "5": 49,
             "6": 57,
-            "7": 65
+            "7": 65,
+            "8": 65
           },
           "trend": "same"
         },
@@ -4140,7 +4148,8 @@
             "4": 33,
             "5": 39,
             "6": 48,
-            "7": 59
+            "7": 59,
+            "8": 59
           },
           "trend": "same"
         },
@@ -4605,7 +4614,8 @@
             "4": 34,
             "5": 41,
             "6": 47,
-            "7": 56
+            "7": 56,
+            "8": 56
           },
           "trend": "same"
         },
@@ -5006,7 +5016,8 @@
             "4": 27,
             "5": 35,
             "6": 45,
-            "7": 45
+            "7": 45,
+            "8": 45
           },
           "trend": "same"
         },
@@ -5087,7 +5098,8 @@
             "4": 5,
             "5": 5,
             "6": 5,
-            "7": 5
+            "7": 5,
+            "8": 5
           },
           "trend": "same"
         }
@@ -5661,14 +5673,15 @@
             "4": 73,
             "5": 98,
             "6": 123,
-            "7": 148
+            "7": 148,
+            "8": 148
           },
           "trend": "same"
         },
         {
           "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
           "name": "DanilMoiseev",
-          "totalGp": 120,
+          "totalGp": 145,
           "games": {
             "1": {
               "score": 40540,
@@ -6117,6 +6130,70 @@
                   "game_number": 7
                 }
               ]
+            },
+            "8": {
+              "score": 47190,
+              "gp": 25,
+              "bonus": 0,
+              "total": 25,
+              "rank": 1,
+              "rounds": [
+                {
+                  "id": "fcde78ee-9a29-47a5-9e23-41cd40309d31",
+                  "game_result_id": "677c6e5f-fe9d-4253-b97a-3ec6efe1c9ab",
+                  "round_number": 1,
+                  "score": 7672,
+                  "years_off": 2,
+                  "distance_meters": 1256400,
+                  "created_at": "2026-07-10 16:14:12",
+                  "participant_id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+                  "game_number": 8
+                },
+                {
+                  "id": "3a8c4a37-52aa-4947-bc30-86bd952766fb",
+                  "game_result_id": "677c6e5f-fe9d-4253-b97a-3ec6efe1c9ab",
+                  "round_number": 2,
+                  "score": 9796,
+                  "years_off": 1,
+                  "distance_meters": 13400,
+                  "created_at": "2026-07-10 16:14:12",
+                  "participant_id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+                  "game_number": 8
+                },
+                {
+                  "id": "cd83bc4c-7bb9-4710-8eaf-e4ac517e288e",
+                  "game_result_id": "677c6e5f-fe9d-4253-b97a-3ec6efe1c9ab",
+                  "round_number": 3,
+                  "score": 9799,
+                  "years_off": 2,
+                  "distance_meters": 68,
+                  "created_at": "2026-07-10 16:14:12",
+                  "participant_id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+                  "game_number": 8
+                },
+                {
+                  "id": "027a0f5c-ff30-4572-a7fa-cee1ef9ba71b",
+                  "game_result_id": "677c6e5f-fe9d-4253-b97a-3ec6efe1c9ab",
+                  "round_number": 4,
+                  "score": 9936,
+                  "years_off": 1,
+                  "distance_meters": 676,
+                  "created_at": "2026-07-10 16:14:12",
+                  "participant_id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+                  "game_number": 8
+                },
+                {
+                  "id": "6fa14af4-72ac-45af-950e-5cbefc750fd4",
+                  "game_result_id": "677c6e5f-fe9d-4253-b97a-3ec6efe1c9ab",
+                  "round_number": 5,
+                  "score": 9987,
+                  "years_off": 0,
+                  "distance_meters": 644,
+                  "created_at": "2026-07-10 16:14:12",
+                  "participant_id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+                  "game_number": 8
+                }
+              ]
             }
           },
           "cumulativeGp": {
@@ -6126,9 +6203,10 @@
             "4": 68,
             "5": 83,
             "6": 100,
-            "7": 120
+            "7": 120,
+            "8": 145
           },
-          "trend": "up"
+          "trend": "same"
         },
         {
           "id": "04457425-1399-40ad-88d9-12dc23492158",
@@ -6591,9 +6669,10 @@
             "4": 64,
             "5": 81,
             "6": 101,
-            "7": 116
+            "7": 116,
+            "8": 116
           },
-          "trend": "down"
+          "trend": "same"
         },
         {
           "id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
@@ -7056,9 +7135,10 @@
             "4": 66,
             "5": 86,
             "6": 99,
-            "7": 116
+            "7": 116,
+            "8": 116
           },
-          "trend": "up"
+          "trend": "same"
         },
         {
           "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
@@ -7521,7 +7601,8 @@
             "4": 59,
             "5": 72,
             "6": 83,
-            "7": 94
+            "7": 94,
+            "8": 94
           },
           "trend": "same"
         },
@@ -7986,7 +8067,8 @@
             "4": 57,
             "5": 68,
             "6": 78,
-            "7": 91
+            "7": 91,
+            "8": 91
           },
           "trend": "same"
         },
@@ -8451,7 +8533,8 @@
             "4": 47,
             "5": 57,
             "6": 72,
-            "7": 82
+            "7": 82,
+            "8": 82
           },
           "trend": "same"
         },
@@ -8916,7 +8999,8 @@
             "4": 41,
             "5": 49,
             "6": 58,
-            "7": 69
+            "7": 69,
+            "8": 69
           },
           "trend": "same"
         },
@@ -9325,7 +9409,8 @@
             "4": 34,
             "5": 43,
             "6": 51,
-            "7": 58
+            "7": 58,
+            "8": 58
           },
           "trend": "same"
         },
@@ -9726,7 +9811,8 @@
             "4": 22,
             "5": 29,
             "6": 36,
-            "7": 44
+            "7": 44,
+            "8": 44
           },
           "trend": "same"
         },
@@ -9935,7 +10021,8 @@
             "4": 25,
             "5": 25,
             "6": 25,
-            "7": 25
+            "7": 25,
+            "8": 25
           },
           "trend": "same"
         },
@@ -9951,7 +10038,8 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0
+            "7": 0,
+            "8": 0
           },
           "trend": "same"
         }
@@ -9969,18 +10057,18 @@
           "keeperOfEpochs": {
             "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
             "name": "DanilMoiseev",
-            "avgDist": 402987.5142857143,
-            "avgYears": 3.3142857142857145,
-            "variance": 2650529.9183673463,
-            "scoresCount": 7
+            "avgDist": 384393.775,
+            "avgYears": 3.05,
+            "variance": 3760210.25,
+            "scoresCount": 8
           },
           "ironclad": {
-            "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
-            "name": "DanilMoiseev",
-            "avgDist": 402987.5142857143,
-            "avgYears": 3.3142857142857145,
-            "variance": 2650529.9183673463,
-            "scoresCount": 7
+            "id": "5947e79d-be5a-4706-9616-8cc1afbefec7",
+            "name": "AlexKrasnov",
+            "avgDist": 1401664.1333333333,
+            "avgYears": 8.833333333333334,
+            "variance": 3327222.25,
+            "scoresCount": 6
           },
           "rollercoaster": {
             "id": "745de683-b649-4d2b-ba21-c0b03165b36a",
@@ -9991,10 +10079,10 @@
             "scoresCount": 3
           },
           "comebacker": null,
-          "disasterScaleKm": 224843.071,
-          "timeTravelYears": 1887,
+          "disasterScaleKm": 226114.259,
+          "timeTravelYears": 1893,
           "needsWork": "locations",
-          "gotSmarter": false
+          "gotSmarter": true
         },
         "games": {
           "1": {
@@ -10107,6 +10195,22 @@
             "stuckInTextures": {
               "round": "2",
               "avgScore": 6495.625
+            }
+          },
+          "8": {
+            "iWasHere": {
+              "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+              "name": "DanilMoiseev",
+              "distance": 254237.6
+            },
+            "iLivedHere": {
+              "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+              "name": "DanilMoiseev",
+              "avgYears": 1.2
+            },
+            "stuckInTextures": {
+              "round": "1",
+              "avgScore": 7672
             }
           }
         }
