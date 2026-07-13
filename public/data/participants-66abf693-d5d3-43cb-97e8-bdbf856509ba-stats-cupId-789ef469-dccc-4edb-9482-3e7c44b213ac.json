@@ -6,19 +6,19 @@
     "telegram_username": null
   },
   "bestResultAllTime": {
-    "total_score": 41967,
-    "game_number": 6,
+    "total_score": 44165,
+    "game_number": 9,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 39340.5,
+  "averageResultAllTime": 39876.555555555555,
   "bestResultInCup": null,
   "averageResultInCup": 0,
   "currentCupPlace": null,
   "previousCupsPlaces": [
     {
       "cup_name": "Американский халифат",
-      "place": 8,
+      "place": 5,
       "league_name": "Любительская",
       "created_at": "2026-05-16 17:46:17"
     }
