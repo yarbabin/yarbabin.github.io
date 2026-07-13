@@ -10147,7 +10147,7 @@
         {
           "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
           "name": "cyberpunkych",
-          "totalGp": 66,
+          "totalGp": 81,
           "games": {
             "1": {
               "score": 41708,
@@ -10548,6 +10548,14 @@
               "total": 8,
               "rank": 9,
               "rounds": []
+            },
+            "9": {
+              "score": 32868,
+              "gp": 15,
+              "bonus": 0,
+              "total": 15,
+              "rank": 4,
+              "rounds": []
             }
           },
           "cumulativeGp": {
@@ -10559,7 +10567,7 @@
             "6": 51,
             "7": 58,
             "8": 66,
-            "9": 66
+            "9": 81
           },
           "trend": "same"
         },
