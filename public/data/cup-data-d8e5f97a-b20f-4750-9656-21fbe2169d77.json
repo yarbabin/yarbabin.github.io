@@ -7748,7 +7748,7 @@
         {
           "id": "04457425-1399-40ad-88d9-12dc23492158",
           "name": "valeria_trusova",
-          "totalGp": 127,
+          "totalGp": 138,
           "games": {
             "1": {
               "score": 46035,
@@ -8261,6 +8261,70 @@
                   "game_number": 8
                 }
               ]
+            },
+            "9": {
+              "score": 39169,
+              "gp": 11,
+              "bonus": 0,
+              "total": 11,
+              "rank": 6,
+              "rounds": [
+                {
+                  "id": "0309c302-2982-40d2-99f0-f8940efc3c9e",
+                  "game_result_id": "3f5e22db-d7b2-454d-9712-15fcf790da50",
+                  "round_number": 1,
+                  "score": 7910,
+                  "years_off": 0,
+                  "distance_meters": 1180100,
+                  "created_at": "2026-07-17 08:11:41",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 9
+                },
+                {
+                  "id": "a7f0b6d5-830e-4ab0-bcef-d335cc0f129c",
+                  "game_result_id": "3f5e22db-d7b2-454d-9712-15fcf790da50",
+                  "round_number": 2,
+                  "score": 9552,
+                  "years_off": 3,
+                  "distance_meters": 1800,
+                  "created_at": "2026-07-17 08:11:41",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 9
+                },
+                {
+                  "id": "5cbd06cf-8215-4702-bd2f-2ae8d8f9f957",
+                  "game_result_id": "3f5e22db-d7b2-454d-9712-15fcf790da50",
+                  "round_number": 3,
+                  "score": 5229,
+                  "years_off": 6,
+                  "distance_meters": 2013400,
+                  "created_at": "2026-07-17 08:11:41",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 9
+                },
+                {
+                  "id": "bbffffe9-5a5d-4731-8860-29dce7be2e0d",
+                  "game_result_id": "3f5e22db-d7b2-454d-9712-15fcf790da50",
+                  "round_number": 4,
+                  "score": 7682,
+                  "years_off": 6,
+                  "distance_meters": 218000,
+                  "created_at": "2026-07-17 08:11:41",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 9
+                },
+                {
+                  "id": "77b028d9-e878-4190-966d-a663128683ad",
+                  "game_result_id": "3f5e22db-d7b2-454d-9712-15fcf790da50",
+                  "round_number": 5,
+                  "score": 8796,
+                  "years_off": 2,
+                  "distance_meters": 503700,
+                  "created_at": "2026-07-17 08:11:41",
+                  "participant_id": "04457425-1399-40ad-88d9-12dc23492158",
+                  "game_number": 9
+                }
+              ]
             }
           },
           "cumulativeGp": {
@@ -8272,7 +8336,7 @@
             "6": 101,
             "7": 116,
             "8": 127,
-            "9": 127
+            "9": 138
           },
           "trend": "same"
         },
@@ -8874,7 +8938,7 @@
         {
           "id": "5f0c6d84-5e7e-4ec5-a244-a405fcc705d2",
           "name": "nastiakoleso",
-          "totalGp": 120,
+          "totalGp": 119,
           "games": {
             "1": {
               "score": 48234,
@@ -9390,10 +9454,10 @@
             },
             "9": {
               "score": 36070,
-              "gp": 11,
+              "gp": 10,
               "bonus": 0,
-              "total": 11,
-              "rank": 6,
+              "total": 10,
+              "rank": 7,
               "rounds": []
             }
           },
@@ -9406,7 +9470,7 @@
             "6": 83,
             "7": 94,
             "8": 109,
-            "9": 120
+            "9": 119
           },
           "trend": "down"
         },
@@ -10491,7 +10555,7 @@
         {
           "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
           "name": "cyberpunkych",
-          "totalGp": 76,
+          "totalGp": 75,
           "games": {
             "1": {
               "score": 41708,
@@ -10895,10 +10959,10 @@
             },
             "9": {
               "score": 32868,
-              "gp": 10,
+              "gp": 9,
               "bonus": 0,
-              "total": 10,
-              "rank": 7,
+              "total": 9,
+              "rank": 8,
               "rounds": []
             }
           },
@@ -10911,7 +10975,7 @@
             "6": 51,
             "7": 58,
             "8": 66,
-            "9": 76
+            "9": 75
           },
           "trend": "same"
         },
@@ -11647,8 +11711,8 @@
             "scoresCount": 3
           },
           "comebacker": null,
-          "disasterScaleKm": 269773.058,
-          "timeTravelYears": 2046,
+          "disasterScaleKm": 273690.058,
+          "timeTravelYears": 2063,
           "needsWork": "locations",
           "gotSmarter": false
         },
@@ -11794,7 +11858,7 @@
             },
             "stuckInTextures": {
               "round": "3",
-              "avgScore": 6558
+              "avgScore": 5893.5
             }
           }
         }
