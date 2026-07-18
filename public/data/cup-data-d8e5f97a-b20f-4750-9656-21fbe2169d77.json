@@ -9243,7 +9243,7 @@
         {
           "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
           "name": "n_pikhovkin",
-          "totalGp": 119,
+          "totalGp": 136,
           "games": {
             "1": {
               "score": 45567,
@@ -9820,6 +9820,70 @@
                   "game_number": 9
                 }
               ]
+            },
+            "10": {
+              "score": 43596,
+              "gp": 17,
+              "bonus": 0,
+              "total": 17,
+              "rank": 3,
+              "rounds": [
+                {
+                  "id": "2609d67e-9f57-4ac1-b031-8bf2d799ef64",
+                  "game_result_id": "12422373-7bac-483a-ae5b-67d109383518",
+                  "round_number": 1,
+                  "score": 9946,
+                  "years_off": 0,
+                  "distance_meters": 2100,
+                  "created_at": "2026-07-18 20:18:36",
+                  "participant_id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
+                  "game_number": 10
+                },
+                {
+                  "id": "ce55fcaa-e115-47b1-b781-4029e673e1d3",
+                  "game_result_id": "12422373-7bac-483a-ae5b-67d109383518",
+                  "round_number": 2,
+                  "score": 8747,
+                  "years_off": 5,
+                  "distance_meters": 13300,
+                  "created_at": "2026-07-18 20:18:36",
+                  "participant_id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
+                  "game_number": 10
+                },
+                {
+                  "id": "6f397ef1-5df9-49dd-bb2d-740dd3e9f7c4",
+                  "game_result_id": "12422373-7bac-483a-ae5b-67d109383518",
+                  "round_number": 3,
+                  "score": 5268,
+                  "years_off": 17,
+                  "distance_meters": 232100,
+                  "created_at": "2026-07-18 20:18:36",
+                  "participant_id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
+                  "game_number": 10
+                },
+                {
+                  "id": "8fb09a02-75e0-428e-8d0a-9d1aa838cc57",
+                  "game_result_id": "12422373-7bac-483a-ae5b-67d109383518",
+                  "round_number": 4,
+                  "score": 9957,
+                  "years_off": 0,
+                  "distance_meters": 1500,
+                  "created_at": "2026-07-18 20:18:36",
+                  "participant_id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
+                  "game_number": 10
+                },
+                {
+                  "id": "3c752aaf-5b4c-4ef3-9f74-62d8ecb2070e",
+                  "game_result_id": "12422373-7bac-483a-ae5b-67d109383518",
+                  "round_number": 5,
+                  "score": 9678,
+                  "years_off": 2,
+                  "distance_meters": 5500,
+                  "created_at": "2026-07-18 20:18:36",
+                  "participant_id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
+                  "game_number": 10
+                }
+              ]
             }
           },
           "cumulativeGp": {
@@ -9832,9 +9896,9 @@
             "7": 91,
             "8": 104,
             "9": 119,
-            "10": 119
+            "10": 136
           },
-          "trend": "same"
+          "trend": "down"
         },
         {
           "id": "66abf693-d5d3-43cb-97e8-bdbf856509ba",
@@ -10379,7 +10443,7 @@
         {
           "id": "31036631-7a9f-4875-9d66-aa7f7b8ca85c",
           "name": "qocjvjskaj",
-          "totalGp": 106,
+          "totalGp": 104,
           "games": {
             "1": {
               "score": 42319,
@@ -10903,10 +10967,10 @@
             },
             "10": {
               "score": 40522,
-              "gp": 17,
+              "gp": 15,
               "bonus": 0,
-              "total": 17,
-              "rank": 3,
+              "total": 15,
+              "rank": 4,
               "rounds": [
                 {
                   "id": "43440b89-fd5b-4c19-a9d1-9942600222fc",
@@ -10976,7 +11040,7 @@
             "7": 69,
             "8": 78,
             "9": 89,
-            "10": 106
+            "10": 104
           },
           "trend": "same"
         },
@@ -12151,8 +12215,8 @@
             "scoresCount": 3
           },
           "comebacker": null,
-          "disasterScaleKm": 277180.451,
-          "timeTravelYears": 2130,
+          "disasterScaleKm": 277434.951,
+          "timeTravelYears": 2154,
           "needsWork": "locations",
           "gotSmarter": false
         },
@@ -12313,8 +12377,8 @@
               "avgYears": 4
             },
             "stuckInTextures": {
-              "round": "4",
-              "avgScore": 7128.5
+              "round": "3",
+              "avgScore": 7404.666666666667
             }
           }
         }
