@@ -29,16 +29,16 @@
           "name": "Основа",
           "top3": [
             {
+              "name": "GBrooklyn",
+              "totalGp": 180
+            },
+            {
               "name": "nghtf",
-              "totalGp": 169
+              "totalGp": 166
             },
             {
               "name": "axnklv",
               "totalGp": 165
-            },
-            {
-              "name": "dvoryrom",
-              "totalGp": 160
             }
           ]
         },
