@@ -6,21 +6,21 @@
     "telegram_username": null
   },
   "bestResultAllTime": {
-    "total_score": 44165,
-    "game_number": 9,
+    "total_score": 45668,
+    "game_number": 10,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 39876.555555555555,
+  "averageResultAllTime": 40455.7,
   "bestResultInCup": {
-    "total_score": 44165,
-    "game_number": 9,
+    "total_score": 45668,
+    "game_number": 10,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultInCup": 39876.555555555555,
+  "averageResultInCup": 40455.7,
   "currentCupPlace": {
-    "place": 7,
+    "place": 5,
     "league_name": "Любительская"
   },
   "previousCupsPlaces": []
