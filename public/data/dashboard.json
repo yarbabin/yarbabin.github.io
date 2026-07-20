@@ -30,15 +30,15 @@
           "top3": [
             {
               "name": "axnklv",
-              "totalGp": 190
+              "totalGp": 185
+            },
+            {
+              "name": "dvoryrom",
+              "totalGp": 185
             },
             {
               "name": "GBrooklyn",
-              "totalGp": 177
-            },
-            {
-              "name": "nghtf",
-              "totalGp": 164
+              "totalGp": 175
             }
           ]
         },
