@@ -6,12 +6,12 @@
     "telegram_username": null
   },
   "bestResultAllTime": {
-    "total_score": 46465,
-    "game_number": 1,
+    "total_score": 47572,
+    "game_number": 10,
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 39443.55172413793,
+  "averageResultAllTime": 39714.5,
   "bestResultInCup": null,
   "averageResultInCup": 0,
   "currentCupPlace": null,
