@@ -1,0 +1,27 @@
+{
+  "participant": {
+    "id": "f85a3990-ce85-4170-a491-0e52d35a9535",
+    "name": "alexnikitin22",
+    "created_at": "2026-09-02 18:04:38",
+    "telegram_username": "@alexnikitin22"
+  },
+  "bestResultAllTime": {
+    "total_score": 41716,
+    "game_number": 2,
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
+  },
+  "averageResultAllTime": 41688.5,
+  "bestResultInCup": {
+    "total_score": 41716,
+    "game_number": 2,
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
+  },
+  "averageResultInCup": 41688.5,
+  "currentCupPlace": {
+    "place": 5,
+    "league_name": "Любительская"
+  },
+  "previousCupsPlaces": []
+}
