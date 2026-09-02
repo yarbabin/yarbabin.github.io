@@ -23,5 +23,12 @@
     "place": 4,
     "league_name": "Любительская"
   },
-  "previousCupsPlaces": []
+  "previousCupsPlaces": [
+    {
+      "cup_name": "От Одессы до Мурманска",
+      "place": 1,
+      "league_name": "Любительская",
+      "created_at": "2026-09-02 17:55:56"
+    }
+  ]
 }
