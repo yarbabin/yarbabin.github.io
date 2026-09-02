@@ -16,16 +16,91 @@
       "isBottomLeague": false,
       "leaderboard": [
         {
-          "id": "1055519d-715b-4e13-888e-9107011d9fbb",
-          "name": "axnklv",
+          "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+          "name": "GBrooklyn",
           "totalGp": 25,
           "games": {
             "1": {
-              "score": 41112,
+              "score": 44251,
               "gp": 25,
               "bonus": 0,
               "total": 25,
               "rank": 1,
+              "rounds": [
+                {
+                  "id": "3a7b033a-2f73-4cd7-8a7f-03d78354fa34",
+                  "game_result_id": "bdba1bfa-1394-460b-bc1a-fa86f7f269a8",
+                  "round_number": 1,
+                  "score": 9284,
+                  "years_off": 1,
+                  "distance_meters": 165600,
+                  "created_at": "2026-09-02 18:14:45",
+                  "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+                  "game_number": 1
+                },
+                {
+                  "id": "7a57b940-4baa-490b-9bf1-a3ce6018c494",
+                  "game_result_id": "bdba1bfa-1394-460b-bc1a-fa86f7f269a8",
+                  "round_number": 2,
+                  "score": 9310,
+                  "years_off": 1,
+                  "distance_meters": 140200,
+                  "created_at": "2026-09-02 18:14:45",
+                  "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+                  "game_number": 1
+                },
+                {
+                  "id": "7499ea05-c1d8-43f3-8a18-84751df76b10",
+                  "game_result_id": "bdba1bfa-1394-460b-bc1a-fa86f7f269a8",
+                  "round_number": 3,
+                  "score": 6132,
+                  "years_off": 11,
+                  "distance_meters": 368100,
+                  "created_at": "2026-09-02 18:14:45",
+                  "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+                  "game_number": 1
+                },
+                {
+                  "id": "6e1e862e-9aaf-4565-a14b-671724b0940c",
+                  "game_result_id": "bdba1bfa-1394-460b-bc1a-fa86f7f269a8",
+                  "round_number": 4,
+                  "score": 9567,
+                  "years_off": 2,
+                  "distance_meters": 33300,
+                  "created_at": "2026-09-02 18:14:45",
+                  "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+                  "game_number": 1
+                },
+                {
+                  "id": "79c0506d-71f3-4794-b4e0-dd81a205b711",
+                  "game_result_id": "bdba1bfa-1394-460b-bc1a-fa86f7f269a8",
+                  "round_number": 5,
+                  "score": 9958,
+                  "years_off": 0,
+                  "distance_meters": 1400,
+                  "created_at": "2026-09-02 18:14:45",
+                  "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+                  "game_number": 1
+                }
+              ]
+            }
+          },
+          "cumulativeGp": {
+            "1": 25
+          },
+          "trend": "same"
+        },
+        {
+          "id": "1055519d-715b-4e13-888e-9107011d9fbb",
+          "name": "axnklv",
+          "totalGp": 20,
+          "games": {
+            "1": {
+              "score": 41112,
+              "gp": 20,
+              "bonus": 0,
+              "total": 20,
+              "rank": 2,
               "rounds": [
                 {
                   "id": "8f426d08-acaf-47e2-8a11-4393ba9600f9",
@@ -86,40 +161,40 @@
             }
           },
           "cumulativeGp": {
-            "1": 25
+            "1": 20
           },
           "trend": "same"
         },
         {
           "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
           "name": "nghtf",
-          "totalGp": 20,
+          "totalGp": 17,
           "games": {
             "1": {
               "score": 40705,
-              "gp": 20,
+              "gp": 17,
               "bonus": 0,
-              "total": 20,
-              "rank": 2,
+              "total": 17,
+              "rank": 3,
               "rounds": []
             }
           },
           "cumulativeGp": {
-            "1": 20
+            "1": 17
           },
           "trend": "same"
         },
         {
           "id": "71f47829-990d-449f-a0e0-4ff88d0c7efc",
           "name": "yarbabin",
-          "totalGp": 17,
+          "totalGp": 15,
           "games": {
             "1": {
               "score": 36968,
-              "gp": 17,
+              "gp": 15,
               "bonus": 0,
-              "total": 17,
-              "rank": 3,
+              "total": 15,
+              "rank": 4,
               "rounds": [
                 {
                   "id": "7f72670d-c2df-4d98-a643-7e92ebcaf086",
@@ -180,7 +255,7 @@
             }
           },
           "cumulativeGp": {
-            "1": 17
+            "1": 15
           },
           "trend": "same"
         },
@@ -253,24 +328,14 @@
             "1": 0
           },
           "trend": "same"
-        },
-        {
-          "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
-          "name": "GBrooklyn",
-          "totalGp": 0,
-          "games": {},
-          "cumulativeGp": {
-            "1": 0
-          },
-          "trend": "same"
         }
       ],
       "analytics": {
         "cup": {
           "chiefGeographer": {
-            "id": "1055519d-715b-4e13-888e-9107011d9fbb",
-            "name": "axnklv",
-            "avgDist": 864120,
+            "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+            "name": "GBrooklyn",
+            "avgDist": 141720,
             "avgYears": 3,
             "variance": null,
             "scoresCount": 1
@@ -286,17 +351,17 @@
           "ironclad": null,
           "rollercoaster": null,
           "comebacker": null,
-          "disasterScaleKm": 10719.8,
-          "timeTravelYears": 41,
+          "disasterScaleKm": 11428.4,
+          "timeTravelYears": 56,
           "needsWork": "locations",
           "gotSmarter": null
         },
         "games": {
           "1": {
             "iWasHere": {
-              "id": "1055519d-715b-4e13-888e-9107011d9fbb",
-              "name": "axnklv",
-              "distance": 864120
+              "id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+              "name": "GBrooklyn",
+              "distance": 141720
             },
             "iLivedHere": {
               "id": "1055519d-715b-4e13-888e-9107011d9fbb",
@@ -305,7 +370,7 @@
             },
             "stuckInTextures": {
               "round": "4",
-              "avgScore": 4211.5
+              "avgScore": 5996.666666666667
             }
           }
         }
