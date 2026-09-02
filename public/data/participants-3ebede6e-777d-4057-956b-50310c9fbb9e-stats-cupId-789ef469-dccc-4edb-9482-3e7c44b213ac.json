@@ -11,7 +11,7 @@
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
   },
-  "averageResultAllTime": 43407.93548387097,
+  "averageResultAllTime": 43311.96875,
   "bestResultInCup": {
     "total_score": 47451,
     "game_number": 9,
@@ -26,7 +26,7 @@
   "previousCupsPlaces": [
     {
       "cup_name": "От Одессы до Мурманска",
-      "place": 3,
+      "place": 8,
       "league_name": "Основа",
       "created_at": "2026-09-02 17:55:56"
     },

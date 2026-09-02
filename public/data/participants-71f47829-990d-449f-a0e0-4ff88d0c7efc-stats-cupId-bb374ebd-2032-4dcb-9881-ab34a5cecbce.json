@@ -11,16 +11,16 @@
     "cup_name": "Кубок Нормандии",
     "cup_id": "789ef469-dccc-4edb-9482-3e7c44b213ac"
   },
-  "averageResultAllTime": 40639.645161290326,
+  "averageResultAllTime": 40400.6875,
   "bestResultInCup": {
     "total_score": 36968,
     "game_number": 1,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 36968,
+  "averageResultInCup": 34980.5,
   "currentCupPlace": {
-    "place": 5,
+    "place": 10,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [

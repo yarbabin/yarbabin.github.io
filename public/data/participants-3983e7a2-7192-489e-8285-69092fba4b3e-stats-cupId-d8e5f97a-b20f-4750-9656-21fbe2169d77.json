@@ -11,7 +11,7 @@
     "cup_name": "Кубок Нормандии",
     "cup_id": "789ef469-dccc-4edb-9482-3e7c44b213ac"
   },
-  "averageResultAllTime": 40985.933333333334,
+  "averageResultAllTime": 40741.25,
   "bestResultInCup": {
     "total_score": 45015,
     "game_number": 1,
@@ -26,7 +26,7 @@
   "previousCupsPlaces": [
     {
       "cup_name": "От Одессы до Мурманска",
-      "place": 8,
+      "place": 9,
       "league_name": "Основа",
       "created_at": "2026-09-02 17:55:56"
     },
