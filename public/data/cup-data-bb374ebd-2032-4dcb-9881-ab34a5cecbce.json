@@ -246,6 +246,25 @@
       "isBottomLeague": true,
       "leaderboard": [
         {
+          "id": "5947e79d-be5a-4706-9616-8cc1afbefec7",
+          "name": "AlexKrasnov",
+          "totalGp": 25,
+          "games": {
+            "1": {
+              "score": 34311,
+              "gp": 25,
+              "bonus": 0,
+              "total": 25,
+              "rank": 1,
+              "rounds": []
+            }
+          },
+          "cumulativeGp": {
+            "1": 25
+          },
+          "trend": "same"
+        },
+        {
           "id": "04457425-1399-40ad-88d9-12dc23492158",
           "name": "valeria_trusova",
           "totalGp": 0,
@@ -278,16 +297,6 @@
         {
           "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
           "name": "cyberpunkych",
-          "totalGp": 0,
-          "games": {},
-          "cumulativeGp": {
-            "1": 0
-          },
-          "trend": "same"
-        },
-        {
-          "id": "5947e79d-be5a-4706-9616-8cc1afbefec7",
-          "name": "AlexKrasnov",
           "totalGp": 0,
           "games": {},
           "cumulativeGp": {
