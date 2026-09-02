@@ -450,16 +450,91 @@
       "isBottomLeague": true,
       "leaderboard": [
         {
-          "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
-          "name": "n_pikhovkin",
+          "id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+          "name": "jvkukushkina",
           "totalGp": 25,
           "games": {
             "1": {
-              "score": 44319,
+              "score": 46322,
               "gp": 25,
               "bonus": 0,
               "total": 25,
               "rank": 1,
+              "rounds": [
+                {
+                  "id": "bb59aa4b-bfd1-4cce-97ca-7c7796e1d409",
+                  "game_result_id": "eac7eaa2-b770-4066-b06f-d162433632e5",
+                  "round_number": 1,
+                  "score": 9287,
+                  "years_off": 1,
+                  "distance_meters": 163200,
+                  "created_at": "2026-09-02 18:22:09",
+                  "participant_id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+                  "game_number": 1
+                },
+                {
+                  "id": "587aac75-7fd3-4be8-8393-873b50f743bc",
+                  "game_result_id": "eac7eaa2-b770-4066-b06f-d162433632e5",
+                  "round_number": 2,
+                  "score": 9478,
+                  "years_off": 3,
+                  "distance_meters": 5400,
+                  "created_at": "2026-09-02 18:22:09",
+                  "participant_id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+                  "game_number": 1
+                },
+                {
+                  "id": "21bb295e-5c71-42ee-a7fe-5455e1e37f7b",
+                  "game_result_id": "eac7eaa2-b770-4066-b06f-d162433632e5",
+                  "round_number": 3,
+                  "score": 8634,
+                  "years_off": 4,
+                  "distance_meters": 165900,
+                  "created_at": "2026-09-02 18:22:09",
+                  "participant_id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+                  "game_number": 1
+                },
+                {
+                  "id": "a4917139-9124-430c-9ff3-68c3174108e3",
+                  "game_result_id": "eac7eaa2-b770-4066-b06f-d162433632e5",
+                  "round_number": 4,
+                  "score": 9000,
+                  "years_off": 3,
+                  "distance_meters": 100100,
+                  "created_at": "2026-09-02 18:22:09",
+                  "participant_id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+                  "game_number": 1
+                },
+                {
+                  "id": "02b244bb-e98b-4030-a2e0-8297ca16ef6b",
+                  "game_result_id": "eac7eaa2-b770-4066-b06f-d162433632e5",
+                  "round_number": 5,
+                  "score": 9923,
+                  "years_off": 0,
+                  "distance_meters": 3500,
+                  "created_at": "2026-09-02 18:22:09",
+                  "participant_id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+                  "game_number": 1
+                }
+              ]
+            }
+          },
+          "cumulativeGp": {
+            "1": 25
+          },
+          "trend": "same"
+        },
+        {
+          "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
+          "name": "n_pikhovkin",
+          "totalGp": 20,
+          "games": {
+            "1": {
+              "score": 44319,
+              "gp": 20,
+              "bonus": 0,
+              "total": 20,
+              "rank": 2,
               "rounds": [
                 {
                   "id": "5e0d1a2c-f01f-44e6-91e6-c14a04956a0c",
@@ -520,26 +595,26 @@
             }
           },
           "cumulativeGp": {
-            "1": 25
+            "1": 20
           },
           "trend": "same"
         },
         {
           "id": "5947e79d-be5a-4706-9616-8cc1afbefec7",
           "name": "AlexKrasnov",
-          "totalGp": 20,
+          "totalGp": 17,
           "games": {
             "1": {
               "score": 34311,
-              "gp": 20,
+              "gp": 17,
               "bonus": 0,
-              "total": 20,
-              "rank": 2,
+              "total": 17,
+              "rank": 3,
               "rounds": []
             }
           },
           "cumulativeGp": {
-            "1": 20
+            "1": 17
           },
           "trend": "same"
         },
@@ -556,16 +631,6 @@
         {
           "id": "31036631-7a9f-4875-9d66-aa7f7b8ca85c",
           "name": "qocjvjskaj",
-          "totalGp": 0,
-          "games": {},
-          "cumulativeGp": {
-            "1": 0
-          },
-          "trend": "same"
-        },
-        {
-          "id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
-          "name": "jvkukushkina",
           "totalGp": 0,
           "games": {},
           "cumulativeGp": {
@@ -627,44 +692,44 @@
       "analytics": {
         "cup": {
           "chiefGeographer": {
-            "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
-            "name": "n_pikhovkin",
-            "avgDist": 182120,
-            "avgYears": 2.6,
+            "id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+            "name": "jvkukushkina",
+            "avgDist": 87620,
+            "avgYears": 2.2,
             "variance": null,
             "scoresCount": 1
           },
           "keeperOfEpochs": {
-            "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
-            "name": "n_pikhovkin",
-            "avgDist": 182120,
-            "avgYears": 2.6,
+            "id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+            "name": "jvkukushkina",
+            "avgDist": 87620,
+            "avgYears": 2.2,
             "variance": null,
             "scoresCount": 1
           },
           "ironclad": null,
           "rollercoaster": null,
           "comebacker": null,
-          "disasterScaleKm": 910.6,
-          "timeTravelYears": 13,
+          "disasterScaleKm": 1348.7,
+          "timeTravelYears": 24,
           "needsWork": "years",
           "gotSmarter": null
         },
         "games": {
           "1": {
             "iWasHere": {
-              "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
-              "name": "n_pikhovkin",
-              "distance": 182120
+              "id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+              "name": "jvkukushkina",
+              "distance": 87620
             },
             "iLivedHere": {
-              "id": "e1fa06ea-2922-4bfa-9030-1c71587541ba",
-              "name": "n_pikhovkin",
-              "avgYears": 2.6
+              "id": "46b8696c-6410-428c-a360-093e4fdb7ff0",
+              "name": "jvkukushkina",
+              "avgYears": 2.2
             },
             "stuckInTextures": {
               "round": "3",
-              "avgScore": 6838
+              "avgScore": 7736
             }
           }
         }
