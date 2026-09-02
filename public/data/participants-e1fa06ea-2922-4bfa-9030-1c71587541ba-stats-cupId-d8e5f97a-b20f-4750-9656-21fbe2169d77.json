@@ -6,12 +6,12 @@
     "telegram_username": "ребят,"
   },
   "bestResultAllTime": {
-    "total_score": 45567,
+    "total_score": 46322,
     "game_number": 1,
-    "cup_name": "Американский халифат",
-    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 42369,
+  "averageResultAllTime": 42551.09090909091,
   "bestResultInCup": {
     "total_score": 45567,
     "game_number": 1,
