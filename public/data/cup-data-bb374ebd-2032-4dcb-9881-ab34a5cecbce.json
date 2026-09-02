@@ -16,16 +16,35 @@
       "isBottomLeague": false,
       "leaderboard": [
         {
-          "id": "71f47829-990d-449f-a0e0-4ff88d0c7efc",
-          "name": "yarbabin",
+          "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
+          "name": "nghtf",
           "totalGp": 25,
           "games": {
             "1": {
-              "score": 36968,
+              "score": 40705,
               "gp": 25,
               "bonus": 0,
               "total": 25,
               "rank": 1,
+              "rounds": []
+            }
+          },
+          "cumulativeGp": {
+            "1": 25
+          },
+          "trend": "same"
+        },
+        {
+          "id": "71f47829-990d-449f-a0e0-4ff88d0c7efc",
+          "name": "yarbabin",
+          "totalGp": 20,
+          "games": {
+            "1": {
+              "score": 36968,
+              "gp": 20,
+              "bonus": 0,
+              "total": 20,
+              "rank": 2,
               "rounds": [
                 {
                   "id": "7f72670d-c2df-4d98-a643-7e92ebcaf086",
@@ -86,7 +105,7 @@
             }
           },
           "cumulativeGp": {
-            "1": 25
+            "1": 20
           },
           "trend": "same"
         },
@@ -123,16 +142,6 @@
         {
           "id": "3983e7a2-7192-489e-8285-69092fba4b3e",
           "name": "pechenegit",
-          "totalGp": 0,
-          "games": {},
-          "cumulativeGp": {
-            "1": 0
-          },
-          "trend": "same"
-        },
-        {
-          "id": "3ebede6e-777d-4057-956b-50310c9fbb9e",
-          "name": "nghtf",
           "totalGp": 0,
           "games": {},
           "cumulativeGp": {

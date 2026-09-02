@@ -11,11 +11,16 @@
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
   },
-  "averageResultAllTime": 43498.03333333333,
-  "bestResultInCup": null,
-  "averageResultInCup": 0,
+  "averageResultAllTime": 43407.93548387097,
+  "bestResultInCup": {
+    "total_score": 40705,
+    "game_number": 1,
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
+  },
+  "averageResultInCup": 40705,
   "currentCupPlace": {
-    "place": 6,
+    "place": 1,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [
