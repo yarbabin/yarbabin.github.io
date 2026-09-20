@@ -6,12 +6,12 @@
     "telegram_username": "ребят,"
   },
   "bestResultAllTime": {
-    "total_score": 46589,
-    "game_number": 2,
+    "total_score": 47020,
+    "game_number": 4,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 42720.666666666664,
+  "averageResultAllTime": 43322.642857142855,
   "bestResultInCup": {
     "total_score": 45567,
     "game_number": 1,

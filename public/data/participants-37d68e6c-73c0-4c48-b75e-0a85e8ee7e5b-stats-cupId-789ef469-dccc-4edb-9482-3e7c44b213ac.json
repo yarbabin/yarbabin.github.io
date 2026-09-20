@@ -6,12 +6,12 @@
     "telegram_username": null
   },
   "bestResultAllTime": {
-    "total_score": 46173,
-    "game_number": 1,
-    "cup_name": "Американский халифат",
-    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
+    "total_score": 46770,
+    "game_number": 3,
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 37626.23333333333,
+  "averageResultAllTime": 38046.8125,
   "bestResultInCup": {
     "total_score": 42256,
     "game_number": 2,
@@ -26,7 +26,7 @@
   "previousCupsPlaces": [
     {
       "cup_name": "От Одессы до Мурманска",
-      "place": 4,
+      "place": 5,
       "league_name": "Основа",
       "created_at": "2026-09-02 17:55:56"
     },

@@ -6,12 +6,12 @@
     "telegram_username": "@alexnikitin22"
   },
   "bestResultAllTime": {
-    "total_score": 41716,
-    "game_number": 2,
+    "total_score": 46897,
+    "game_number": 3,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 41688.5,
+  "averageResultAllTime": 43172.5,
   "bestResultInCup": null,
   "averageResultInCup": 0,
   "currentCupPlace": null,

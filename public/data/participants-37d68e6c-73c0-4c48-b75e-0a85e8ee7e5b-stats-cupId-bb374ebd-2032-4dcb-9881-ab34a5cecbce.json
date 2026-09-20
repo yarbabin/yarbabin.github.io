@@ -6,21 +6,21 @@
     "telegram_username": null
   },
   "bestResultAllTime": {
-    "total_score": 46173,
-    "game_number": 1,
-    "cup_name": "Американский халифат",
-    "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
-  },
-  "averageResultAllTime": 37626.23333333333,
-  "bestResultInCup": {
-    "total_score": 44134,
-    "game_number": 1,
+    "total_score": 46770,
+    "game_number": 3,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 42415.5,
+  "averageResultAllTime": 38046.8125,
+  "bestResultInCup": {
+    "total_score": 46770,
+    "game_number": 3,
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
+  },
+  "averageResultInCup": 43385.5,
   "currentCupPlace": {
-    "place": 4,
+    "place": 5,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [
