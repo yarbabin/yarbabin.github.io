@@ -43,8 +43,8 @@
   "bestAverage": {
     "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
     "participant_name": "GBrooklyn",
-    "avg_score": 44682.208333333336,
-    "games_played": 24
+    "avg_score": 44799.96,
+    "games_played": 25
   },
   "closestDistance": {
     "distance_meters": 1,
@@ -62,9 +62,9 @@
     "games_played": 24
   },
   "bestAvgDistance": {
-    "participant_id": "ab3bc934-8a89-4365-a34a-796a8b5bf762",
-    "participant_name": "svv1997",
-    "avg_distance": 157730,
-    "games_played": 6
+    "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
+    "participant_name": "GBrooklyn",
+    "avg_distance": 153941.37903225806,
+    "games_played": 25
   }
 }
