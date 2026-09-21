@@ -3,7 +3,7 @@
     "id": "4a1e4c19-6325-4951-b153-193f9f57606b",
     "name": "cyberpunkych",
     "created_at": "2026-05-16 17:50:58",
-    "telegram_username": "1"
+    "telegram_username": "1."
   },
   "bestResultAllTime": {
     "total_score": 44777,
@@ -11,14 +11,14 @@
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 35535.416666666664,
+  "averageResultAllTime": 35440.96,
   "bestResultInCup": {
     "total_score": 40016,
     "game_number": 1,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 34714.75,
+  "averageResultInCup": 34406.6,
   "currentCupPlace": {
     "place": 7,
     "league_name": "Любительская"
