@@ -29,16 +29,16 @@
           "name": "Основа",
           "top3": [
             {
+              "name": "dvoryrom",
+              "totalGp": 92
+            },
+            {
               "name": "GBrooklyn",
               "totalGp": 72
             },
             {
               "name": "axnklv",
               "totalGp": 71
-            },
-            {
-              "name": "dvoryrom",
-              "totalGp": 66
             }
           ]
         },
@@ -48,15 +48,15 @@
           "top3": [
             {
               "name": "n_pikhovkin",
-              "totalGp": 89
+              "totalGp": 114
             },
             {
               "name": "nastiakoleso",
-              "totalGp": 74
+              "totalGp": 91
             },
             {
-              "name": "valeria_trusova",
-              "totalGp": 65
+              "name": "jvkukushkina",
+              "totalGp": 82
             }
           ]
         }

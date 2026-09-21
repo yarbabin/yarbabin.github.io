@@ -11,14 +11,14 @@
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 38046.8125,
+  "averageResultAllTime": 38141.93939393939,
   "bestResultInCup": null,
   "averageResultInCup": 0,
   "currentCupPlace": null,
   "previousCupsPlaces": [
     {
       "cup_name": "От Одессы до Мурманска",
-      "place": 5,
+      "place": 4,
       "league_name": "Основа",
       "created_at": "2026-09-02 17:55:56"
     },
