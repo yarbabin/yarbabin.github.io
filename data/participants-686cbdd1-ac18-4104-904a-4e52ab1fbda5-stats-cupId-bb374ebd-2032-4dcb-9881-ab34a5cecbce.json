@@ -1,0 +1,40 @@
+{
+  "participant": {
+    "id": "686cbdd1-ac18-4104-904a-4e52ab1fbda5",
+    "name": "DanilMoiseev",
+    "created_at": "2026-05-16 19:00:27",
+    "telegram_username": "закрываем"
+  },
+  "bestResultAllTime": {
+    "total_score": 48151,
+    "game_number": 5,
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
+  },
+  "averageResultAllTime": 41680.72,
+  "bestResultInCup": {
+    "total_score": 48151,
+    "game_number": 5,
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
+  },
+  "averageResultInCup": 44282.6,
+  "currentCupPlace": {
+    "place": 5,
+    "league_name": "Основа"
+  },
+  "previousCupsPlaces": [
+    {
+      "cup_name": "Американский халифат",
+      "place": 2,
+      "league_name": "Любительская",
+      "created_at": "2026-05-16 17:46:17"
+    },
+    {
+      "cup_name": "Кубок Соединенных Штатов Гренландии",
+      "place": 4,
+      "league_name": "Претенденты",
+      "created_at": "2026-02-21 00:00:00"
+    }
+  ]
+}
