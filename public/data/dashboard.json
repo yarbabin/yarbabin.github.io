@@ -38,7 +38,7 @@
             },
             {
               "name": "GBrooklyn",
-              "totalGp": 87
+              "totalGp": 85
             }
           ]
         },
@@ -48,15 +48,15 @@
           "top3": [
             {
               "name": "n_pikhovkin",
-              "totalGp": 114
+              "totalGp": 109
+            },
+            {
+              "name": "valeria_trusova",
+              "totalGp": 90
             },
             {
               "name": "nastiakoleso",
-              "totalGp": 91
-            },
-            {
-              "name": "jvkukushkina",
-              "totalGp": 82
+              "totalGp": 87
             }
           ]
         }

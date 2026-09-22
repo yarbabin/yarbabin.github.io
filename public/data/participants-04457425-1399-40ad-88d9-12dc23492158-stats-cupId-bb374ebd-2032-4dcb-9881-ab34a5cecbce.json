@@ -3,24 +3,24 @@
     "id": "04457425-1399-40ad-88d9-12dc23492158",
     "name": "valeria_trusova",
     "created_at": "2026-05-18 19:32:41",
-    "telegram_username": null
+    "telegram_username": "1."
   },
   "bestResultAllTime": {
-    "total_score": 46957,
-    "game_number": 4,
+    "total_score": 47747,
+    "game_number": 5,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 42721,
+  "averageResultAllTime": 43056.066666666666,
   "bestResultInCup": {
-    "total_score": 46957,
-    "game_number": 4,
+    "total_score": 47747,
+    "game_number": 5,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 43610.5,
+  "averageResultInCup": 44437.8,
   "currentCupPlace": {
-    "place": 5,
+    "place": 2,
     "league_name": "Любительская"
   },
   "previousCupsPlaces": [
