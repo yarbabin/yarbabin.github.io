@@ -6,19 +6,19 @@
     "telegram_username": null
   },
   "bestResultAllTime": {
-    "total_score": 48647,
+    "total_score": 48810,
     "game_number": 6,
-    "cup_name": "Кубок Соединенных Штатов Гренландии",
-    "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
-  },
-  "averageResultAllTime": 43508.05714285714,
-  "bestResultInCup": {
-    "total_score": 48230,
-    "game_number": 5,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 45486.2,
+  "averageResultAllTime": 43655.333333333336,
+  "bestResultInCup": {
+    "total_score": 48810,
+    "game_number": 6,
+    "cup_name": "От Одессы до Мурманска",
+    "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
+  },
+  "averageResultInCup": 46040.166666666664,
   "currentCupPlace": {
     "place": 2,
     "league_name": "Основа"

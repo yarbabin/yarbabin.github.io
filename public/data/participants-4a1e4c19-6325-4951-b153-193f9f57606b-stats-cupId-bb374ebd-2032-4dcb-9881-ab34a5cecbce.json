@@ -11,16 +11,16 @@
     "cup_name": "Американский халифат",
     "cup_id": "d8e5f97a-b20f-4750-9656-21fbe2169d77"
   },
-  "averageResultAllTime": 35440.96,
+  "averageResultAllTime": 35569.57692307692,
   "bestResultInCup": {
     "total_score": 40016,
     "game_number": 1,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 34406.6,
+  "averageResultInCup": 35136.333333333336,
   "currentCupPlace": {
-    "place": 8,
+    "place": 6,
     "league_name": "Любительская"
   },
   "previousCupsPlaces": [

@@ -43,8 +43,8 @@
   "bestAverage": {
     "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
     "participant_name": "GBrooklyn",
-    "avg_score": 44799.96,
-    "games_played": 25
+    "avg_score": 44861.846153846156,
+    "games_played": 26
   },
   "closestDistance": {
     "distance_meters": 1,
@@ -58,13 +58,13 @@
   "bestAvgYears": {
     "participant_id": "1055519d-715b-4e13-888e-9107011d9fbb",
     "participant_name": "axnklv",
-    "avg_years_off": 2.8951612903225805,
-    "games_played": 25
+    "avg_years_off": 2.8449612403100777,
+    "games_played": 26
   },
   "bestAvgDistance": {
     "participant_id": "f77c7e02-9731-47a9-9e3e-99963b1b5caa",
     "participant_name": "GBrooklyn",
-    "avg_distance": 153941.37903225806,
-    "games_played": 25
+    "avg_distance": 156913.98449612403,
+    "games_played": 26
   }
 }
