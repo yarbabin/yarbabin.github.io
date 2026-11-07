@@ -11,16 +11,16 @@
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 43655.333333333336,
+  "averageResultAllTime": 43769.73684210526,
   "bestResultInCup": {
     "total_score": 48810,
     "game_number": 6,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 46040.166666666664,
+  "averageResultInCup": 45987.375,
   "currentCupPlace": {
-    "place": 2,
+    "place": 1,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [

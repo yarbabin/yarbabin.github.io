@@ -6,12 +6,12 @@
     "telegram_username": "@tsvet123"
   },
   "bestResultAllTime": {
-    "total_score": 28942,
-    "game_number": 1,
+    "total_score": 33572,
+    "game_number": 6,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 26254.5,
+  "averageResultAllTime": 27718,
   "bestResultInCup": null,
   "averageResultInCup": 0,
   "currentCupPlace": null,

@@ -6,21 +6,21 @@
     "telegram_username": null
   },
   "bestResultAllTime": {
-    "total_score": 48013,
-    "game_number": 3,
+    "total_score": 48813,
+    "game_number": 7,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 44662.53333333333,
+  "averageResultAllTime": 44995.27777777778,
   "bestResultInCup": {
-    "total_score": 48013,
-    "game_number": 3,
+    "total_score": 48813,
+    "game_number": 7,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 44475.8,
+  "averageResultInCup": 45294.5,
   "currentCupPlace": {
-    "place": 6,
+    "place": 4,
     "league_name": "Основа"
   },
   "previousCupsPlaces": [
