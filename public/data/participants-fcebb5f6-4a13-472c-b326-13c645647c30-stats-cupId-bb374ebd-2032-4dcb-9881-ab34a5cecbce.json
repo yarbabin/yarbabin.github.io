@@ -11,14 +11,14 @@
     "cup_name": "Кубок Соединенных Штатов Гренландии",
     "cup_id": "fe103c47-afaa-437e-804c-22b249d58672"
   },
-  "averageResultAllTime": 37076.27027027027,
+  "averageResultAllTime": 37251.60526315789,
   "bestResultInCup": {
     "total_score": 43817,
     "game_number": 7,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultInCup": 38089.125,
+  "averageResultInCup": 38716.88888888889,
   "currentCupPlace": {
     "place": 6,
     "league_name": "Любительская"

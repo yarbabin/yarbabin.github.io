@@ -6,19 +6,19 @@
     "telegram_username": "пожалуй,"
   },
   "bestResultAllTime": {
-    "total_score": 39603,
-    "game_number": 4,
+    "total_score": 45419,
+    "game_number": 9,
     "cup_name": "От Одессы до Мурманска",
     "cup_id": "bb374ebd-2032-4dcb-9881-ab34a5cecbce"
   },
-  "averageResultAllTime": 33099.818181818184,
+  "averageResultAllTime": 34126.416666666664,
   "bestResultInCup": null,
   "averageResultInCup": 0,
   "currentCupPlace": null,
   "previousCupsPlaces": [
     {
       "cup_name": "От Одессы до Мурманска",
-      "place": 10,
+      "place": 9,
       "league_name": "Любительская",
       "created_at": "2026-09-02 17:55:56"
     },
